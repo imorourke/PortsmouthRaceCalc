@@ -1,0 +1,323 @@
+race:
+  1:
+    RC:
+    - Art_M
+    - Sara_M
+    date: '2017_06_25'
+    notes: M3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '53:07'
+      Bill_P:
+        boat: SF
+        time: '46:43'
+      Chris_E:
+        boat: SF
+        time: '49:09'
+      David_Bu:
+        boat: SF
+        time: '50:18'
+      Gail_B:
+        boat: SWSX
+        time: '53:38'
+      John_T:
+        boat: US-1
+        time: '38:01'
+      Lewis_V:
+        boat: BCN
+        time: '47:21'
+      Mike_F:
+        boat: SF
+        time: '45:15'
+      Mike_S:
+        boat: FSCT
+        time: '43:03'
+      Nedra_F:
+        boat: SF
+        time: '48:18'
+      Rod_H:
+        boat: LASEM
+        time: '46:49'
+      Ron_F:
+        boat: F5
+        time: '42:37'
+      Xavier:
+        boat: SWSX
+        time: DSQ
+    wind: 0-1
+  2:
+    RC:
+    - Art_M
+    - Sara_M
+    date: '2017_06_25'
+    notes: M3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '54:42'
+      Bill_P:
+        boat: SF
+        time: '51:53'
+      Chris_E:
+        boat: SF
+        time: '53:06'
+      David_Bu:
+        boat: SF
+        time: '51:51'
+      Gail_B:
+        boat: SWSX
+        time: '57:32'
+      John_T:
+        boat: US-1
+        time: '43:27'
+      Lewis_V:
+        boat: BCN
+        time: '45:09'
+      Mike_F:
+        boat: SF
+        time: '46:48'
+      Mike_S:
+        boat: FSCT
+        time: '46:04'
+      Nedra_F:
+        boat: SF
+        time: '53:28'
+      Rod_H:
+        boat: LASEM
+        time: '46:54'
+      Ron_F:
+        boat: F5
+        time: '47:59'
+      Xavier:
+        boat: SWSX
+        time: '49:03'
+    wind: 0-1
+  3:
+    RC:
+    - Ron_F
+    - David_Bu
+    date: '2017_07_09'
+    notes: M2 180 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '35:58'
+      Barry_O:
+        boat: HLR14
+        time: '47:27'
+      Chris_E:
+        boat: SF
+        time: '41:00'
+      Lewis_V:
+        boat: BCN
+        time: '37:56'
+      Mike_F:
+        boat: SF
+        time: '40:30'
+      Mike_S:
+        boat: FSCT
+        time: '39:13'
+      Nedra_F:
+        boat: SF
+        time: '43:29'
+      Rod_H:
+        boat: LASEM
+        time: '38:55'
+      Xavier:
+        boat: SWSX
+        time: '40:10'
+    wind: 2-3
+  4:
+    RC:
+    - Ron_F
+    - David_Bu
+    date: '2017_07_09'
+    notes: M3 180 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '34:37'
+      Chris_E:
+        boat: SF
+        time: '36:54'
+      Lewis_V:
+        boat: BCN
+        time: '36:52'
+      Mike_F:
+        boat: SF
+        time: '36:14'
+      Mike_S:
+        boat: FSCT
+        time: '33:51'
+      Nedra_F:
+        boat: SF
+        time: '38:24'
+      Rod_H:
+        boat: LASEM
+        time: '37:21'
+      Sara_M:
+        boat: BNSH
+        time: '47:56'
+      Xavier:
+        boat: SWSX
+        time: '37:35'
+    wind: 2-3
+  5:
+    RC:
+    - Lewis_V
+    - Chris_E
+    date: '2017_07_16'
+    notes: M2 270 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '29:53'
+      David_Bu:
+        boat: SF
+        time: '31:19'
+      Gail_B:
+        boat: SWSX
+        time: '60:00'
+      John_T:
+        boat: US-1
+        time: '28:08'
+      Mike_S:
+        boat: SF
+        time: '35:32'
+      Rod_H:
+        boat: LASEM
+        time: '28:46'
+      Xavier:
+        boat: SWSX
+        time: '30:41'
+    wind: 0-1
+  6:
+    RC:
+    - Lewis_V
+    - Chris_E
+    date: '2017_07_16'
+    notes: M2 270 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '49:55'
+      David_Bu:
+        boat: SF
+        time: '67:55'
+      Gail_B:
+        boat: SWSX
+        time: DNF
+      John_T:
+        boat: US-1
+        time: '46:43'
+      Mike_S:
+        boat: SF
+        time: '68:13'
+      Rod_H:
+        boat: LASEM
+        time: '67:48'
+      Xavier:
+        boat: SWSX
+        time: '61:49'
+    wind: 0-1
+  7:
+    RC:
+    - Mike_S
+    - Nick_H
+    - Steve_R
+    date: '2017_07_23'
+    notes: I2 90  Port Rounding   shortend to 1 lap
+    skip:
+      Bill_P:
+        boat: SF
+        time: '43:36'
+      Lewis_V:
+        boat: SF
+        time: '51:06'
+      Rod_H:
+        boat: PUF
+        time: DNF
+      Ron_F:
+        boat: F5
+        time: '38:05'
+    wind: 0-1
+  8:
+    RC:
+    - Mike_S
+    - Nick_H
+    - Steve_R
+    date: '2017_07_23'
+    notes: No race, lack of wind, skipper and interest.
+    skip: {}
+    wind: 0-1
+  9:
+    RC:
+    - Barry_O
+    - Rod_H
+    date: '2017_07_30'
+    notes: M2 90,  shortened to M1
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '26:48'
+      Bill_P:
+        boat: SF
+        time: '29:49'
+      David_Bu:
+        boat: SF
+        time: '26:11'
+      John_T:
+        boat: US-1
+        time: '20:34'
+      Lewis_V:
+        boat: BCN
+        time: '27:03'
+      Mike_F:
+        boat: SF
+        time: '20:58'
+      Nedra_F:
+        boat: SF
+        time: DNF
+      Ron_F:
+        boat: F5
+        time: '26:48'
+      Xavier:
+        boat: SWSX
+        time: '25:56'
+    wind: 0-1
+  10:
+    RC:
+    - Barry_O
+    - Rod_H
+    date: '2017_07_30'
+    notes: M2 90
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '24:28'
+      Bill_P:
+        boat: SF
+        time: '27:45'
+      David_Bu:
+        boat: SF
+        time: '28:05'
+      John_T:
+        boat: US-1
+        time: '23:48'
+      Lewis_V:
+        boat: BCN
+        time: '23:19'
+      Mike_F:
+        boat: SF
+        time: '24:52'
+      Nedra_F:
+        boat: SF
+        time: '27:55'
+      Ron_F:
+        boat: F5
+        time: '24:17'
+      Xavier:
+        boat: SWSX
+        time: '26:34'
+    wind: 2-3

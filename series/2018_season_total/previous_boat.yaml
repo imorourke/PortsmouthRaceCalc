@@ -1,0 +1,89 @@
+boat:
+  BCN:
+    full_name: Buccaneer 18' spi (SWN18)
+    hc_of_wind:
+      0-1: 89.2
+      2-3: 87.0
+      '4': 86.3
+      5-9: 85.4
+      D-PN: 86.9
+  CAT125:
+    full_name: Catalina Expo 12.5
+    hc_of_wind:
+      0-1: 102.0
+      2-3: 101.0
+      '4': 102.0
+      5-9: 102.0
+      D-PN: 102.0
+  F5:
+    full_name: Force 5
+    hc_of_wind:
+      0-1: 98.1
+      2-3: 96.6
+      '4': 95.3
+      5-9: 93.4
+      D-PN: 95.4
+  HLR14:
+    full_name: Holder 14 (H1-14)
+    hc_of_wind:
+      0-1: 113.3
+      2-3: 111.7
+      '4': 108.4
+      5-9: 111.0
+      D-PN: 111.0
+  LASE:
+    full_name: Laser (Int.)
+    hc_of_wind:
+      0-1: 93.7
+      2-3: 92.3
+      '4': 91.0
+      5-9: 88.2
+      D-PN: 91.1
+  LASEM:
+    full_name: Laser Radial/Laser M
+    hc_of_wind:
+      0-1: 99.4
+      2-3: 97.3
+      '4': 93.6
+      5-9: 96.7
+      D-PN: 96.7
+  PUF:
+    full_name: Puffer
+    hc_of_wind:
+      0-1: 108.7
+      2-3: 111.8
+      '4': 108.8
+      5-9: 106.8
+      D-PN: 110.4
+  SF:
+    full_name: Sunfish (Int.)
+    hc_of_wind:
+      0-1: 103.0
+      2-3: 100.4
+      '4': 97.8
+      5-9: 95.8
+      D-PN: 99.6
+  SWSX:
+    full_name: Sweet 16
+    hc_of_wind:
+      0-1: 99.4
+      2-3: 95.9
+      '4': 94.7
+      5-9: 94.3
+      D-PN: 96.2
+  US-1:
+    full_name: US-1
+    hc_of_wind:
+      0-1: 90.6
+      2-3: 91.3
+      '4': 92.3
+      5-9: 91.9
+      D-PN: 91.5
+  WF:
+    full_name: Wayfarer
+    hc_of_wind:
+      0-1: 94.0
+      2-3: 91.7
+      '4': 90.5
+      5-9: 89.5
+      D-PN: 91.6

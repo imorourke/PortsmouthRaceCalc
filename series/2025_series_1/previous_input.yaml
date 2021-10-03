@@ -1,0 +1,175 @@
+race:
+  1:
+    RC:
+    - Ian_O
+    - Nick_H
+    - Marja_J
+    date: '2025_04_13'
+    notes: Cancelled due to wind
+    skip: {}
+    wind: '4'
+  2:
+    RC:
+    - Ian_O
+    - Nick_H
+    - Marja_J
+    date: '2025_04_13'
+    notes: Cancelled due to wind
+    skip: {}
+    wind: '4'
+  3:
+    RC:
+    - Heather_B
+    - Nick_H
+    - Marja_J
+    date: '2025_04_27'
+    notes: Cancelled due to weather
+    skip: {}
+    wind: 2-3
+  4:
+    RC:
+    - Heather_B
+    - Nick_H
+    - Marja_J
+    date: '2025_04_27'
+    notes: Cancelled due to weather
+    skip: {}
+    wind: 2-3
+  5:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2025_05_04'
+    notes: M2
+    skip:
+      Heather_B:
+        boat: SF
+        time: FIP_4
+      Ian_O:
+        boat: US-1
+        time: '28:07'
+      Matt_L:
+        boat: F5
+        time: '29:16'
+      Rod_H:
+        boat: LASEM
+        time: '27:40'
+    wind: 0-1
+  6:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2025_05_04'
+    notes: M2
+    skip:
+      Heather_B:
+        boat: SF
+        time: '29:42'
+      Ian_O:
+        boat: US-1
+        time: '21:41'
+      Matt_L:
+        boat: F5
+        time: '29:07'
+      Rod_H:
+        boat: LASEM
+        time: '26:08'
+    wind: 0-1
+  7:
+    RC:
+    - Matt_L
+    - Nick_H
+    date: '2025_06_01'
+    notes: M1
+    skip:
+      Bill_P:
+        boat: SF
+        time: '26:33'
+      Danielle:
+        boat: SF
+        time: '44:16'
+      Dennis_S:
+        boat: SF
+        time: FIP_4
+      Heather_B:
+        boat: SF
+        time: '33:40'
+    wind: 0-1
+  8:
+    RC:
+    - Matt_L
+    - Nick_H
+    date: '2025_06_01'
+    notes: Cancelled due to lack of wind.
+    skip: {}
+    wind: 0-1
+  9:
+    RC:
+    - Ryan_C
+    date: '2025_06_22'
+    notes: Cancelled due to high winds.
+    skip: {}
+    wind: 0-1
+  10:
+    RC:
+    - Ryan_C
+    date: '2025_06_22'
+    notes: Cancelled due to high winds.
+    skip: {}
+    wind: 0-1
+  11:
+    RC:
+    - Lewis_V
+    - Dennis_S
+    date: '2025_06_29'
+    notes: Cancelled due to storms.
+    skip: {}
+    wind: 0-1
+  12:
+    RC:
+    - Lewis_V
+    - Dennis_S
+    date: '2025_06_29'
+    notes: Cancelled due to storms.
+    skip: {}
+    wind: 0-1
+  13:
+    RC:
+    - Ian_O
+    - Nick_H
+    date: '2025_07_20'
+    notes: M2 Shortened to M1
+    skip:
+      Adam_E:
+        boat: SF
+        time: FIP_7
+      Bill_P:
+        boat: SF
+        time: '36:58'
+      Craig_J:
+        boat: STFS
+        time: '43:15'
+      Heather_B:
+        boat: SF
+        time: '42:58'
+      Larry_G:
+        boat: SF
+        time: DNF
+      Marcus_M:
+        boat: SF
+        time: FIP_6
+      Rod_H:
+        boat: LASEM
+        time: '36:39'
+      Sofia:
+        boat: SF
+        time: '43:48'
+    wind: 0-1
+  14:
+    RC:
+    - Ian_O
+    - Nick_H
+    date: '2025_07_20'
+    notes: Cancelled due to lack of wind.
+    skip: {}
+    wind: 0-1

@@ -1,0 +1,732 @@
+race:
+  1:
+    RC:
+    - Matt_L
+    - Chris_E
+    date: '2024_04_14'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '41:12'
+      Heather_B:
+        boat: SF
+        time: '43:08'
+      Ian_O:
+        boat: US-1
+        time: '40:42'
+      Jim_M:
+        boat: SF
+        time: '42:16'
+      Ryan_C:
+        boat: PIRAT
+        time: '44:00'
+    wind: 2-3
+  2:
+    RC:
+    - Matt_L
+    - Chris_E
+    date: '2024_04_14'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '26:13'
+      Heather_B:
+        boat: SF
+        time: '29:36'
+      Ian_O:
+        boat: US-1
+        time: '22:39'
+      Jim_M:
+        boat: SF
+        time: '30:26'
+      Ryan_C:
+        boat: PIRAT
+        time: '31:20'
+    wind: 2-3
+  3:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2024_04_21'
+    notes: I3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '27:15'
+      Bill_P:
+        boat: SF
+        time: '24:32'
+      Heather_B:
+        boat: SF
+        time: DNF
+      Jim_M:
+        boat: CAT125
+        time: '37:53'
+      Matt_L:
+        boat: F5
+        time: '25:35'
+      Ryan_C:
+        boat: PIRAT
+        time: '35:19'
+    wind: 2-3
+  4:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2024_04_21'
+    notes: I3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '34:11'
+      Bill_P:
+        boat: SF
+        time: '24:30'
+      Jim_M:
+        boat: CAT125
+        time: '38:33'
+      Matt_L:
+        boat: F5
+        time: '25:33'
+      Ryan_C:
+        boat: PIRAT
+        time: '36:13'
+    wind: 2-3
+  5:
+    RC:
+    - Barry_O
+    - Bill_P
+    - Heather_B
+    date: '2024_04_28'
+    notes: Triangle
+    skip:
+      Ian_O:
+        boat: US-1
+        time: '20:02'
+      Matt_L:
+        boat: F5
+        time: '19:29'
+      Matt_T:
+        boat: SF
+        time: '26:14'
+      Rod_H:
+        boat: LASEM
+        time: '17:52'
+    wind: 2-3
+  6:
+    RC:
+    - Barry_O
+    - Bill_P
+    - Heather_B
+    date: '2024_04_28'
+    notes: Triangle
+    skip:
+      Ian_O:
+        boat: US-1
+        time: '20:09'
+      Matt_L:
+        boat: F5
+        time: '20:06'
+      Matt_T:
+        boat: SF
+        time: '21:13'
+      Rod_H:
+        boat: LASEM
+        time: '19:26'
+    wind: 2-3
+  7:
+    RC:
+    - Nick_H
+    - Ryan_C
+    date: '2024_05_05'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '30:25'
+      Chris_E:
+        boat: SF
+        time: '30:55'
+      Heather_B:
+        boat: SF
+        time: FIP_6
+      Ian_O:
+        boat: US-1
+        time: '27:31'
+      Matt_L:
+        boat: F5
+        time: '29:43'
+      Rod_H:
+        boat: LASEM
+        time: '27:26'
+    wind: 0-1
+  8:
+    RC:
+    - Nick_H
+    - Ryan_C
+    date: '2024_05_05'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:18'
+      Chris_E:
+        boat: SF
+        time: '23:47'
+      Ian_O:
+        boat: US-1
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '22:48'
+      Rod_H:
+        boat: LASEM
+        time: '20:16'
+    wind: 2-3
+  9:
+    RC:
+    - Nick_H
+    - David_Bu
+    date: '2024_06_02'
+    notes: M2
+    skip:
+      Gary_V:
+        boat: SF
+        time: '23:33'
+      Heather_B:
+        boat: SF
+        time: '23:00'
+      Jim_S:
+        boat: SF
+        time: '26:06'
+      John_M:
+        boat: SF
+        time: '22:13'
+      Matt_L:
+        boat: F5
+        time: '21:48'
+      Ryan_C:
+        boat: PIRAT
+        time: '24:22'
+      Sam:
+        boat: SF
+        time: '26:04'
+    wind: 2-3
+  10:
+    RC:
+    - Nick_H
+    - David_Bu
+    date: '2024_06_02'
+    notes: M2
+    skip:
+      Gary_V:
+        boat: SF
+        time: '21:30'
+      Heather_B:
+        boat: SF
+        time: '23:33'
+      Jim_S:
+        boat: SF
+        time: DNF
+      John_M:
+        boat: SF
+        time: '20:57'
+      Matt_L:
+        boat: F5
+        time: '18:52'
+      Ryan_C:
+        boat: PIRAT
+        time: DNF
+      Sam:
+        boat: SF
+        time: '27:14'
+    wind: 2-3
+  11:
+    RC:
+    - Nick_H
+    - Ryan_C
+    date: '2024_06_23'
+    notes: M1
+    skip:
+      Bill_P:
+        boat: SF
+        time: '45:15'
+      David_Bu:
+        boat: SF
+        time: '45:10'
+      Heather_B:
+        boat: SF
+        time: '46:40'
+      Matt_L:
+        boat: F5
+        time: '45:42'
+      Nick_Ally:
+        boat: SF
+        time: '46:09'
+      Tyler_T:
+        boat: SF
+        time: '46:07'
+    wind: 0-1
+  12:
+    RC:
+    - Nick_H
+    - Ryan_C
+    date: '2024_06_23'
+    notes: M1
+    skip:
+      Bill_P:
+        boat: SF
+        time: '31:03'
+      David_Bu:
+        boat: SF
+        time: '30:57'
+      Heather_B:
+        boat: SF
+        time: '35:38'
+      Matt_L:
+        boat: F5
+        time: '32:21'
+      Nick_Ally:
+        boat: SF
+        time: '33:52'
+      Tyler_T:
+        boat: SF
+        time: '32:26'
+    wind: 0-1
+  13:
+    RC:
+    - Bill_P
+    - Barry_O
+    date: '2024_06_30'
+    notes: M3
+    skip:
+      Chris_E:
+        boat: SF
+        time: '34:43'
+      David_Bu:
+        boat: SF
+        time: '34:55'
+      Heather_B:
+        boat: SF
+        time: DNF
+      Ian_O:
+        boat: US-1
+        time: '30:16'
+      JoDene_C:
+        boat: SF
+        time: FIP_6
+      Rod_H:
+        boat: LASEM
+        time: '32:22'
+      Ryan_C:
+        boat: SF
+        time: '40:33'
+    wind: 2-3
+  14:
+    RC:
+    - Bill_P
+    - Barry_O
+    date: '2024_06_30'
+    notes: M3, Raft Drive - A Long Way
+    skip:
+      Chris_E:
+        boat: SF
+        time: '28:55'
+      David_Bu:
+        boat: SF
+        time: '29:53'
+      Heather_B:
+        boat: SF
+        time: FIP_7
+      Ian_O:
+        boat: US-1
+        time: '26:46'
+      JoDene_C:
+        boat: SF
+        time: FIP_6
+      Rod_H:
+        boat: LASEM
+        time: '26:47'
+      Ryan_C:
+        boat: SF
+        time: '34:43'
+    wind: 2-3
+  15:
+    RC:
+    - Ian_O
+    - Nick_H
+    date: '2024_07_21'
+    notes: M2 90
+    skip:
+      Bill_P:
+        boat: SF
+        time: '25:33'
+      David_Bu:
+        boat: SF
+        time: '22:32'
+      Heather_B:
+        boat: SF
+        time: '37:41'
+      Jim_S:
+        boat: SF
+        time: '38:37'
+      JoDene_C:
+        boat: SF
+        time: FIP_6
+      Larry_G:
+        boat: SF
+        time: '43:53'
+    wind: 2-3
+  16:
+    RC:
+    - Ian_O
+    - Nick_H
+    date: '2024_07_21'
+    notes: M2 90
+    skip:
+      Bill_P:
+        boat: SF
+        time: '24:02'
+      David_Bu:
+        boat: SF
+        time: '25:10'
+      Heather_B:
+        boat: SF
+        time: '33:33'
+      Jim_S:
+        boat: SF
+        time: '36:50'
+      Larry_G:
+        boat: SF
+        time: DNF
+    wind: 2-3
+  17:
+    RC:
+    - David_Bu
+    - Matt_L
+    date: '2024_07_28'
+    notes: M3 220
+    skip:
+      Craig_J:
+        boat: STFS
+        time: DNF
+      Heather_B:
+        boat: SF
+        time: '47:25'
+      Ian_O:
+        boat: US-1
+        time: '30:20'
+      Rod_H:
+        boat: LASEM
+        time: '30:15'
+      Ryan_C:
+        boat: SF
+        time: '39:24'
+      Tyler_T:
+        boat: SF
+        time: '53:30'
+    wind: 2-3
+  18:
+    RC:
+    - David_Bu
+    - Matt_L
+    date: '2024_07_28'
+    notes: M2
+    skip:
+      Craig_J:
+        boat: STFS
+        time: DNF
+      Heather_B:
+        boat: SF
+        time: '29:48'
+      Ian_O:
+        boat: US-1
+        time: '23:29'
+      Rod_H:
+        boat: LASEM
+        time: '23:12'
+      Ryan_C:
+        boat: SF
+        time: '26:02'
+      Tyler_T:
+        boat: SF
+        time: '33:40'
+    wind: 2-3
+  19:
+    RC:
+    - Barry_O
+    date: '2024_08_04'
+    notes: Insufficient Racers
+    skip: {}
+    wind: 0-1
+  20:
+    RC:
+    - Barry_O
+    date: '2024_08_04'
+    notes: Insufficient Racers
+    skip: {}
+    wind: 0-1
+  21:
+    RC:
+    - Heather_B
+    - Ryan_C
+    date: '2024_08_18'
+    notes: M2 - Shortened from M3
+    skip:
+      Bill_P:
+        boat: SF
+        time: '27:03'
+      Craig_J:
+        boat: STFS
+        time: '33:39'
+      Ian_O:
+        boat: US-1
+        time: '27:12'
+      Matt_L:
+        boat: F5
+        time: '27:26'
+      Melissa_W:
+        boat: SF
+        time: FIP_5
+    wind: 2-3
+  22:
+    RC:
+    - Heather_B
+    - Ryan_C
+    date: '2024_08_18'
+    notes: M1 - Shortened from M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '21:19'
+      Craig_J:
+        boat: STFS
+        time: '25:37'
+      Ian_O:
+        boat: US-1
+        time: '24:28'
+      Matt_L:
+        boat: F5
+        time: '22:03'
+    wind: 2-3
+  23:
+    RC:
+    - Matt_L
+    - David_Bu
+    date: '2024_08_26'
+    notes: M3
+    skip:
+      Craig_J:
+        boat: STFS
+        time: '45:58'
+      Ian_O:
+        boat: US-1
+        time: '35:52'
+      Jim_M:
+        boat: SF
+        time: '44:40'
+      Marja_J:
+        boat: SF
+        time: FIP_6
+      Matt_T:
+        boat: SF
+        time: '40:09'
+      Ryan_C:
+        boat: SF
+        time: '46:06'
+    wind: 2-3
+  24:
+    RC:
+    - Matt_L
+    - David_Bu
+    date: '2024_08_26'
+    notes: M2
+    skip:
+      Craig_J:
+        boat: STFS
+        time: '35:38'
+      Ian_O:
+        boat: US-1
+        time: '26:48'
+      Jim_M:
+        boat: SF
+        time: '32:08'
+      Matt_T:
+        boat: SF
+        time: '32:49'
+      Ryan_C:
+        boat: SF
+        time: '30:57'
+    wind: '4'
+  25:
+    RC:
+    - Marja_J
+    - Jim_M
+    date: '2024_09_08'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '41:08'
+      David_Bu:
+        boat: SF
+        time: '35:03'
+      Heather_B:
+        boat: SF
+        time: '40:29'
+      Ian_O:
+        boat: US-1
+        time: '34:35'
+      Jim_H:
+        boat: LASE
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '40:26'
+      Matthew_J:
+        boat: SF
+        time: '41:36'
+      Ryan_C:
+        boat: SF
+        time: '40:02'
+    wind: 2-3
+  26:
+    RC:
+    - Marja_J
+    - Jim_M
+    date: '2024_09_08'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '48:57'
+      David_Bu:
+        boat: SF
+        time: '47:58'
+      Heather_B:
+        boat: SF
+        time: '47:33'
+      Ian_O:
+        boat: US-1
+        time: '47:34'
+      Jim_H:
+        boat: LASE
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '49:53'
+      Matthew_J:
+        boat: SF
+        time: '50:46'
+      Ryan_C:
+        boat: SF
+        time: '48:36'
+    wind: 0-1
+  27:
+    RC:
+    - Matt_T
+    - Ian_O
+    date: '2024_09_15'
+    notes: M3 180
+    skip:
+      David_Bu:
+        boat: SF
+        time: '42:26'
+      Jim_M:
+        boat: SF
+        time: '46:52'
+      Marja_J:
+        boat: SF
+        time: '56:04'
+      Matthew_J:
+        boat: SF
+        time: '50:11'
+      Ryan_C:
+        boat: SF
+        time: '48:43'
+    wind: 2-3
+  28:
+    RC:
+    - Matt_T
+    - Ian_O
+    date: '2024_09_15'
+    notes: M2 180
+    skip:
+      David_Bu:
+        boat: SF
+        time: '26:21'
+      Jim_M:
+        boat: SF
+        time: '31:30'
+      Marja_J:
+        boat: SF
+        time: '33:35'
+      Matthew_J:
+        boat: SF
+        time: '34:14'
+      Ryan_C:
+        boat: SF
+        time: '29:31'
+    wind: 2-3
+  29:
+    RC:
+    - Barry_O
+    date: '2024_09_22'
+    notes: Cancelled due to lack of racers
+    skip: {}
+    wind: 0-1
+  30:
+    RC:
+    - Barry_O
+    date: '2024_09_22'
+    notes: Cancelled due to lack of racers
+    skip: {}
+    wind: 0-1
+  31:
+    RC:
+    - Heather_B
+    - Craig_J
+    date: '2024_09_29'
+    notes: I2
+    skip:
+      David_Bu:
+        boat: SF
+        time: '25:50'
+      John_M:
+        boat: SF
+        time: '27:47'
+      Matt_L:
+        boat: F5
+        time: '27:59'
+      Rod_H:
+        boat: LASEM
+        time: '26:38'
+      Ryan_C:
+        boat: SF
+        time: '26:40'
+    wind: 0-1
+  32:
+    RC:
+    - Heather_B
+    - Craig_J
+    date: '2024_09_29'
+    notes: I2
+    skip:
+      David_Bu:
+        boat: SF
+        time: '21:23'
+      John_M:
+        boat: SF
+        time: '27:58'
+      Matt_L:
+        boat: F5
+        time: FIP_5
+      Rod_H:
+        boat: LASEM
+        time: '20:52'
+      Ryan_C:
+        boat: SF
+        time: '23:10'
+    wind: 0-1

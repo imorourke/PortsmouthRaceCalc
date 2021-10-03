@@ -1,0 +1,267 @@
+race:
+  1:
+    RC:
+    - Mike_F
+    - Nedra_F
+    - Ali_B
+    date: '2018_06_24'
+    notes: M3 3 laps, starboard rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '30:39'
+      Chris_E:
+        boat: SF
+        time: '30:13'
+      David_Bu:
+        boat: SF
+        time: '31:26'
+      John_T:
+        boat: US-1
+        time: DNF
+      Lewis_V:
+        boat: BCN
+        time: '33:10'
+      Pat_B:
+        boat: WF
+        time: '32:30'
+      Rod_H:
+        boat: LASEM
+        time: '27:19'
+      Ron_F:
+        boat: F5
+        time: '27:44'
+    wind: 2-3
+  2:
+    RC:
+    - Mike_F
+    - Nedra_F
+    - Ali_B
+    date: '2018_06_24'
+    notes: M3 4 laps, starboard rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '38:36'
+      Chris_E:
+        boat: SF
+        time: '38:46'
+      David_Bu:
+        boat: SF
+        time: '40:58'
+      Lewis_V:
+        boat: BCN
+        time: '35:11'
+      Pat_B:
+        boat: WF
+        time: '44:09'
+      Rod_H:
+        boat: LASEM
+        time: '37:03'
+      Ron_F:
+        boat: F5
+        time: '40:41'
+    wind: 2-3
+  3:
+    RC:
+    - Rod_H
+    - LA_L
+    date: '2018_07_01'
+    notes: M3 2 laps, starboard rounding
+    skip:
+      David_Bu:
+        boat: SF
+        time: '23:19'
+      Lewis_V:
+        boat: BCN
+        time: '22:39'
+      Mike_F:
+        boat: SF
+        time: '21:32'
+      Nedra_F:
+        boat: SF
+        time: DNF
+      Ron_F:
+        boat: F5
+        time: '21:25'
+    wind: '4'
+  4:
+    RC:
+    - Rod_H
+    - LA_L
+    date: '2018_07_01'
+    notes: M3 3 laps, port rounding
+    skip:
+      David_Bu:
+        boat: SF
+        time: '36:58'
+      Lewis_V:
+        boat: BCN
+        time: '36:02'
+      Mike_F:
+        boat: SF
+        time: '35:09'
+      Nedra_F:
+        boat: SF
+        time: '36:03'
+      Ron_F:
+        boat: F5
+        time: '36:11'
+    wind: 2-3
+  5:
+    RC:
+    - Pat_B
+    - David_Bu
+    - Brad_C
+    date: '2018_07_15'
+    notes: M2 Port Rounding
+    skip:
+      Betsy_H:
+        boat: SF
+        time: DNF
+      Lewis_V:
+        boat: BCN
+        time: '42:12'
+      Rod_H:
+        boat: LASEM
+        time: '34:06'
+      Ron_F:
+        boat: F5
+        time: '37:04'
+    wind: 0-1
+  6:
+    RC:
+    - Pat_B
+    - David_Bu
+    - Brad_C
+    date: '2018_07_15'
+    notes: M2 Port Rounding
+    skip:
+      Lewis_V:
+        boat: BCN
+        time: '36:44'
+      Ralph_H:
+        boat: SF
+        time: DNF
+      Rod_H:
+        boat: LASEM
+        time: '33:53'
+      Ron_F:
+        boat: F5
+        time: '35:02'
+    wind: 2-3
+  7:
+    RC:
+    - Gail_K
+    - Mike_K
+    - Barry_O
+    date: '2018_07_22'
+    notes: M2 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '47:20'
+      Chris_E:
+        boat: SF
+        time: '42:33'
+      Cody_M:
+        boat: SF
+        time: '54:29'
+      David_Bu:
+        boat: SF
+        time: '44:44'
+      Lewis_V:
+        boat: BCN
+        time: '40:57'
+      Mike_F:
+        boat: SF
+        time: '40:37'
+      Nedra_F:
+        boat: SF
+        time: '46:00'
+      Rod_H:
+        boat: LASEM
+        time: '42:45'
+      Ron_F:
+        boat: F5
+        time: '40:03'
+      Steve_R:
+        boat: CAT125
+        time: '49:03'
+    wind: 0-1
+  8:
+    RC:
+    - Gail_K
+    - Mike_K
+    - Barry_O
+    date: '2018_07_22'
+    notes: O course M plus an I  1 lap
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '39:19'
+      Chris_E:
+        boat: SF
+        time: '37:12'
+      Cody_M:
+        boat: SF
+        time: '54:18'
+      David_Bu:
+        boat: SF
+        time: '36:26'
+      Lewis_V:
+        boat: BCN
+        time: '37:39'
+      Mike_F:
+        boat: SF
+        time: '35:49'
+      Nedra_F:
+        boat: SF
+        time: '41:16'
+      Rod_H:
+        boat: LASEM
+        time: '34:08'
+      Ron_F:
+        boat: F5
+        time: '32:38'
+    wind: 2-3
+  9:
+    RC:
+    - Art_M
+    - Ron_F
+    date: '2018_07_29'
+    notes: I2 ?  Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '25:38'
+      John_T:
+        boat: US-1
+        time: '23:36'
+      Lewis_V:
+        boat: BCN
+        time: '22:35'
+      Mike_F:
+        boat: SF
+        time: '26:48'
+    wind: 2-3
+  10:
+    RC:
+    - Art_M
+    - Ron_F
+    date: '2018_07_29'
+    notes: M2 ?  Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '23:30'
+      John_T:
+        boat: US-1
+        time: DNF
+      Lewis_V:
+        boat: BCN
+        time: '22:00'
+      Mike_F:
+        boat: SF
+        time: '22:50'
+    wind: 2-3

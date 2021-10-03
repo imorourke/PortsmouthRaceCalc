@@ -1,0 +1,254 @@
+race:
+  1:
+    RC:
+    - Marcus_M
+    - Nick_H
+    date: '2025_08_03'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '34:32'
+      Chris_E:
+        boat: SF
+        time: '35:50'
+      Chris_Y:
+        boat: SF
+        time: '37:57'
+      Dennis_S:
+        boat: SF
+        time: FIP_4
+      Larry_G:
+        boat: SF
+        time: DNF
+    wind: 2-3
+  2:
+    RC:
+    - Marcus_M
+    - Nick_H
+    date: '2025_08_03'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '43:15'
+      Chris_E:
+        boat: SF
+        time: '41:01'
+      Chris_Y:
+        boat: SF
+        time: '44:45'
+      Dennis_S:
+        boat: SF
+        time: DNF
+      Larry_G:
+        boat: SF
+        time: DNF
+    wind: 2-3
+  3:
+    RC:
+    - Rod_H
+    - Nick_H
+    date: '2025_08_10'
+    notes: M2 - Late Start (Rain)
+    skip:
+      Adam_E:
+        boat: SF
+        time: FIP_8
+      Craig_J:
+        boat: STFS
+        time: '28:53'
+      Elliott_F:
+        boat: SF
+        time: '26:07'
+      Heather_B:
+        boat: SF
+        time: '28:08'
+      Ian_O:
+        boat: US-1
+        time: '15:36'
+      Jay_H:
+        boat: SWSX
+        time: '28:32'
+      Matt_L:
+        boat: F5
+        time: '22:18'
+      Ryan_C:
+        boat: SF
+        time: '29:23'
+    wind: 2-3
+  4:
+    RC:
+    - Rod_H
+    - Nick_H
+    date: '2025_08_10'
+    notes: M2 - Late Start (Rain)
+    skip:
+      Craig_J:
+        boat: STFS
+        time: DNF
+      Elliott_F:
+        boat: SF
+        time: '29:48'
+      Heather_B:
+        boat: SF
+        time: '34:07'
+      Ian_O:
+        boat: US-1
+        time: '17:30'
+      Jay_H:
+        boat: SWSX
+        time: '26:11'
+      Matt_L:
+        boat: F5
+        time: '23:33'
+      Ryan_C:
+        boat: SF
+        time: '27:10'
+    wind: 2-3
+  5:
+    RC:
+    - Matt_L
+    - Adam_E
+    date: '2025_08_17'
+    notes: M3
+    skip:
+      Chris_E:
+        boat: SF
+        time: '31:40'
+      Chris_P:
+        boat: SF
+        time: '40:58'
+      Craig_J:
+        boat: STFS
+        time: '40:02'
+      Heather_B:
+        boat: SF
+        time: '39:35'
+      Ian_O:
+        boat: US-1
+        time: '25:19'
+      Jay_H:
+        boat: LASE
+        time: '38:04'
+      Larry_G:
+        boat: SF
+        time: '37:16'
+      Lewis_V:
+        boat: SF
+        time: '39:48'
+      Rod_H:
+        boat: LASEM
+        time: '28:21'
+      Ryan_C:
+        boat: SF
+        time: '34:23'
+    wind: 2-3
+  6:
+    RC:
+    - Matt_L
+    - Adam_E
+    date: '2025_08_17'
+    notes: M3
+    skip:
+      Chris_E:
+        boat: SF
+        time: '30:56'
+      Chris_P:
+        boat: SF
+        time: '37:20'
+      Craig_J:
+        boat: STFS
+        time: '41:11'
+      Heather_B:
+        boat: SF
+        time: '42:07'
+      Ian_O:
+        boat: US-1
+        time: '25:29'
+      Jay_H:
+        boat: LASE
+        time: '31:17'
+      Larry_G:
+        boat: SF
+        time: DNF
+      Lewis_V:
+        boat: SF
+        time: DNF
+      Rod_H:
+        boat: LASEM
+        time: '30:47'
+      Ryan_C:
+        boat: SF
+        time: '37:23'
+    wind: 2-3
+  7:
+    RC:
+    - Lewis_V
+    - Barry_O
+    date: '2025_08_24'
+    notes: M3
+    skip:
+      Adam_E:
+        boat: SF
+        time: FIP_9
+      Chris_E:
+        boat: SF
+        time: '25:00'
+      Elliott_F:
+        boat: SF
+        time: '37:28'
+      Heather_B:
+        boat: SF
+        time: '32:52'
+      Ian_O:
+        boat: US-1
+        time: '25:33'
+      Jay_H:
+        boat: LASE
+        time: '32:10'
+      Marcus_M:
+        boat: SF
+        time: '37:50'
+      Matt_L:
+        boat: F5
+        time: '26:40'
+      Ryan_C:
+        boat: SF
+        time: '33:51'
+    wind: 2-3
+  8:
+    RC:
+    - Lewis_V
+    - Barry_O
+    date: '2025_08_24'
+    notes: M3
+    skip:
+      Adam_E:
+        boat: SF
+        time: '35:28'
+      Chris_E:
+        boat: SF
+        time: '30:19'
+      Elliott_F:
+        boat: SF
+        time: '37:47'
+      Heather_B:
+        boat: SF
+        time: '30:43'
+      Ian_O:
+        boat: US-1
+        time: '24:21'
+      Jay_H:
+        boat: LASE
+        time: '30:07'
+      Marcus_M:
+        boat: SF
+        time: '32:02'
+      Matt_L:
+        boat: F5
+        time: '29:55'
+      Ryan_C:
+        boat: SF
+        time: '33:21'
+    wind: 2-3

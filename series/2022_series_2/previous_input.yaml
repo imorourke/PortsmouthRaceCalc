@@ -1,0 +1,157 @@
+race:
+  1:
+    RC:
+    - Bill_P
+    - David_Bu
+    date: '2022_04_24'
+    notes: Cancelled due to insufficient sailors
+    skip: {}
+    wind: 0-1
+  2:
+    RC:
+    - Bill_P
+    - David_Bu
+    date: '2022_04_24'
+    notes: Cancelled due to insufficient sailors
+    skip: {}
+    wind: 0-1
+  3:
+    RC:
+    - Mike_S
+    - Ian_O
+    date: '2022_05_01'
+    notes: M3 Port Roundings
+    skip:
+      Bill_P:
+        boat: SF
+        time: '35:57'
+      Jim_S:
+        boat: SF
+        time: DNF
+      Lewis_V:
+        boat: BCN
+        time: '29:42'
+      Rod_H:
+        boat: LASEM
+        time: '30:16'
+    wind: '4'
+  4:
+    RC:
+    - Rod_H
+    - Jim_S
+    date: '2022_05_15'
+    notes: Cancelled due to weather
+    skip: {}
+    wind: 0-1
+  5:
+    RC:
+    - Rod_H
+    - Jim_S
+    date: '2022_05_15'
+    notes: Cancelled due to weather
+    skip: {}
+    wind: 0-1
+  6:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2022_05_22'
+    notes: M Port
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '40:29'
+      Bill_P:
+        boat: SF
+        time: '37:22'
+      Jim_S:
+        boat: SF
+        time: '49:39'
+      Matt_L:
+        boat: F5
+        time: '37:48'
+      Rod_H:
+        boat: LASEM
+        time: '34:42'
+      Steve_S:
+        boat: SF
+        time: DNF
+    wind: 2-3
+  7:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2022_05_22'
+    notes: M Port
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: DNF
+      Bill_P:
+        boat: SF
+        time: '32:01'
+      Jim_S:
+        boat: SF
+        time: '39:26'
+      Matt_L:
+        boat: F5
+        time: '32:26'
+      Rod_H:
+        boat: LASEM
+        time: '24:58'
+      Steve_S:
+        boat: SF
+        time: DNF
+    wind: 2-3
+  8:
+    RC:
+    - Matt_L
+    - Barry_O
+    date: '2022_06_05'
+    notes: M3 Starboard
+    skip:
+      Bill_P:
+        boat: SF
+        time: '32:50'
+      Chris_E:
+        boat: SF
+        time: '29:45'
+      David_Bu:
+        boat: SF
+        time: '30:19'
+      Ian_O:
+        boat: SF
+        time: '31:25'
+      Lewis_V:
+        boat: BCN
+        time: '28:00'
+      Rod_H:
+        boat: LASEM
+        time: '28:28'
+    wind: 2-3
+  9:
+    RC:
+    - Matt_L
+    - Barry_O
+    date: '2022_06_05'
+    notes: M3 Starboard
+    skip:
+      Bill_P:
+        boat: SF
+        time: '30:19'
+      Chris_E:
+        boat: SF
+        time: '29:57'
+      David_Bu:
+        boat: SF
+        time: '30:15'
+      Ian_O:
+        boat: SF
+        time: '29:37'
+      Lewis_V:
+        boat: BCN
+        time: '27:49'
+      Rod_H:
+        boat: LASEM
+        time: '29:41'
+    wind: 2-3

@@ -1,0 +1,513 @@
+race:
+  1:
+    RC:
+    - Nedra_F
+    - Mike_F
+    date: '2020_05_31'
+    notes: M2 Starboard
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '29:17'
+      Bill_P:
+        boat: SF
+        time: '26:15'
+      Ian_O:
+        boat: SF
+        time: '32:08'
+      Jim_S:
+        boat: SF
+        time: '42:22'
+      Matt_L:
+        boat: DLPSR
+        time: '60:00'
+      Nick_H:
+        boat: SF
+        time: '28:10'
+      Rod_H:
+        boat: LASEM
+        time: '23:10'
+      Ron_F:
+        boat: F5
+        time: '22:57'
+    wind: 2-3
+  2:
+    RC:
+    - Nedra_F
+    - Mike_F
+    date: '2020_05_31'
+    notes: M2 Starboard
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '26:48'
+      Bill_P:
+        boat: SF
+        time: '23:29'
+      Ian_O:
+        boat: SF
+        time: '26:28'
+      Jim_S:
+        boat: SF
+        time: '33:07'
+      Matt_L:
+        boat: DLPSR
+        time: '27:08'
+      Nick_H:
+        boat: SF
+        time: '25:45'
+      Rod_H:
+        boat: LASEM
+        time: '22:48'
+      Ron_F:
+        boat: F5
+        time: '20:26'
+    wind: 2-3
+  3:
+    RC:
+    - Barry_O
+    - Bill_P
+    date: '2020_06_07'
+    notes: M3 Starboard Rounding
+    skip:
+      Ian_O:
+        boat: SF
+        time: '39:39'
+      Jay_H:
+        boat: SWSX
+        time: '39:19'
+      Jim_S:
+        boat: SF
+        time: FIP_8
+      Lewis_V:
+        boat: BCN
+        time: '33:43'
+      Matt_L:
+        boat: DLPSR
+        time: '41:28'
+      Mike_F:
+        boat: SF
+        time: '37:10'
+      Nedra_F:
+        boat: SF
+        time: '40:56'
+      Rod_H:
+        boat: LASEM
+        time: '36:12'
+      Ron_F:
+        boat: F5
+        time: DNF
+    wind: 2-3
+  4:
+    RC:
+    - Barry_O
+    - Bill_P
+    date: '2020_06_07'
+    notes: M3 Starboard Rounding
+    skip:
+      Ian_O:
+        boat: SF
+        time: '37:16'
+      Jay_H:
+        boat: SWSX
+        time: '34:43'
+      Jim_S:
+        boat: SF
+        time: '45:37'
+      Lewis_V:
+        boat: BCN
+        time: '33:44'
+      Matt_L:
+        boat: DLPSR
+        time: '50:17'
+      Mike_F:
+        boat: SF
+        time: '36:07'
+      Nedra_F:
+        boat: SF
+        time: '36:30'
+      Rod_H:
+        boat: LASEM
+        time: '34:49'
+      Ron_F:
+        boat: F5
+        time: '31:11'
+    wind: 2-3
+  5:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2020_06_14'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '28:18'
+      Ian_O:
+        boat: SF
+        time: '28:57'
+      Jim_S:
+        boat: SF
+        time: '38:20'
+      Matt_L:
+        boat: DLPSR
+        time: '40:06'
+      Mike_F:
+        boat: SF
+        time: '27:44'
+      Nedra_F:
+        boat: SF
+        time: '27:56'
+      Rod_H:
+        boat: LASEM
+        time: '28:38'
+      Ron_F:
+        boat: F5
+        time: '27:10'
+    wind: 2-3
+  6:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2020_06_14'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '32:30'
+      Ian_O:
+        boat: SF
+        time: '37:57'
+      Jim_S:
+        boat: SF
+        time: '42:20'
+      Matt_L:
+        boat: DLPSR
+        time: FIP_8
+      Mike_F:
+        boat: SF
+        time: '30:41'
+      Nedra_F:
+        boat: SF
+        time: '32:29'
+      Rod_H:
+        boat: LASEM
+        time: '30:22'
+      Ron_F:
+        boat: F5
+        time: '30:12'
+    wind: 2-3
+  7:
+    RC:
+    - David_Bu
+    - Mike_S
+    date: '2020_06_21'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '40:26'
+      Bill_P:
+        boat: SF
+        time: '35:39'
+      Ian_O:
+        boat: SF
+        time: '40:24'
+      Jay_H:
+        boat: CAT125
+        time: '37:33'
+      Jim_S:
+        boat: SF
+        time: '41:21'
+      Matt_L:
+        boat: DLPSR
+        time: '41:04'
+      Ron_F:
+        boat: F5
+        time: '34:35'
+    wind: 2-3
+  8:
+    RC:
+    - David_Bu
+    - Mike_S
+    date: '2020_06_21'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '42:01'
+      Bill_P:
+        boat: SF
+        time: '38:30'
+      Ian_O:
+        boat: SF
+        time: '41:29'
+      Jay_H:
+        boat: CAT125
+        time: '42:39'
+      Jim_S:
+        boat: SF
+        time: '50:35'
+      Matt_L:
+        boat: DLPSR
+        time: '52:12'
+      Ron_F:
+        boat: F5
+        time: '37:44'
+    wind: 2-3
+  9:
+    RC:
+    - Nedra_F
+    - Mike_F
+    date: '2020_05_31'
+    notes: M2 Starboard
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '29:17'
+      Bill_P:
+        boat: SF
+        time: '26:15'
+      Ian_O:
+        boat: SF
+        time: '32:08'
+      Jim_S:
+        boat: SF
+        time: '42:22'
+      Matt_L:
+        boat: DLPSR
+        time: '60:00'
+      Nick_H:
+        boat: SF
+        time: '28:10'
+      Rod_H:
+        boat: LASEM
+        time: '23:10'
+      Ron_F:
+        boat: F5
+        time: '22:57'
+    wind: 2-3
+  10:
+    RC:
+    - Nedra_F
+    - Mike_F
+    date: '2020_05_31'
+    notes: M2 Starboard
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '26:48'
+      Bill_P:
+        boat: SF
+        time: '23:29'
+      Ian_O:
+        boat: SF
+        time: '26:28'
+      Jim_S:
+        boat: SF
+        time: '33:07'
+      Matt_L:
+        boat: DLPSR
+        time: '27:08'
+      Nick_H:
+        boat: SF
+        time: '25:45'
+      Rod_H:
+        boat: LASEM
+        time: '22:48'
+      Ron_F:
+        boat: F5
+        time: '20:26'
+    wind: 2-3
+  11:
+    RC:
+    - Barry_O
+    - Bill_P
+    date: '2020_06_07'
+    notes: M3 Starboard Rounding
+    skip:
+      Ian_O:
+        boat: SF
+        time: '39:39'
+      Jay_H:
+        boat: SWSX
+        time: '39:19'
+      Jim_S:
+        boat: SF
+        time: FIP_8
+      Lewis_V:
+        boat: BCN
+        time: '33:43'
+      Matt_L:
+        boat: DLPSR
+        time: '41:28'
+      Mike_F:
+        boat: SF
+        time: '37:10'
+      Nedra_F:
+        boat: SF
+        time: '40:56'
+      Rod_H:
+        boat: LASEM
+        time: '36:12'
+      Ron_F:
+        boat: F5
+        time: DNF
+    wind: 2-3
+  12:
+    RC:
+    - Barry_O
+    - Bill_P
+    date: '2020_06_07'
+    notes: M3 Starboard Rounding
+    skip:
+      Ian_O:
+        boat: SF
+        time: '37:16'
+      Jay_H:
+        boat: SWSX
+        time: '34:43'
+      Jim_S:
+        boat: SF
+        time: '45:37'
+      Lewis_V:
+        boat: BCN
+        time: '33:44'
+      Matt_L:
+        boat: DLPSR
+        time: '50:17'
+      Mike_F:
+        boat: SF
+        time: '36:07'
+      Nedra_F:
+        boat: SF
+        time: '36:30'
+      Rod_H:
+        boat: LASEM
+        time: '34:49'
+      Ron_F:
+        boat: F5
+        time: '31:11'
+    wind: 2-3
+  13:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2020_06_14'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '28:18'
+      Ian_O:
+        boat: SF
+        time: '28:57'
+      Jim_S:
+        boat: SF
+        time: '38:20'
+      Matt_L:
+        boat: DLPSR
+        time: '40:06'
+      Mike_F:
+        boat: SF
+        time: '27:44'
+      Nedra_F:
+        boat: SF
+        time: '27:56'
+      Rod_H:
+        boat: LASEM
+        time: '28:38'
+      Ron_F:
+        boat: F5
+        time: '27:10'
+    wind: 2-3
+  14:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2020_06_14'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '32:30'
+      Ian_O:
+        boat: SF
+        time: '37:57'
+      Jim_S:
+        boat: SF
+        time: '42:20'
+      Matt_L:
+        boat: DLPSR
+        time: FIP_8
+      Mike_F:
+        boat: SF
+        time: '30:41'
+      Nedra_F:
+        boat: SF
+        time: '32:29'
+      Rod_H:
+        boat: LASEM
+        time: '30:22'
+      Ron_F:
+        boat: F5
+        time: '30:12'
+    wind: 2-3
+  15:
+    RC:
+    - David_Bu
+    - Mike_S
+    date: '2020_06_21'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '40:26'
+      Bill_P:
+        boat: SF
+        time: '35:39'
+      Ian_O:
+        boat: SF
+        time: '40:24'
+      Jay_H:
+        boat: CAT125
+        time: '37:33'
+      Jim_S:
+        boat: SF
+        time: '41:21'
+      Matt_L:
+        boat: DLPSR
+        time: '41:04'
+      Ron_F:
+        boat: F5
+        time: '34:35'
+    wind: 2-3
+  16:
+    RC:
+    - David_Bu
+    - Mike_S
+    date: '2020_06_21'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '42:01'
+      Bill_P:
+        boat: SF
+        time: '38:30'
+      Ian_O:
+        boat: SF
+        time: '41:29'
+      Jay_H:
+        boat: CAT125
+        time: '42:39'
+      Jim_S:
+        boat: SF
+        time: '50:35'
+      Matt_L:
+        boat: DLPSR
+        time: '52:12'
+      Ron_F:
+        boat: F5
+        time: '37:44'
+    wind: 2-3

@@ -1,0 +1,307 @@
+race:
+  1:
+    RC:
+    - David_Bu
+    - John_T
+    date: '2019_04_28'
+    notes: I2 Port
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '26:50'
+      Bill_P:
+        boat: SF
+        time: '30:15'
+      Chris_E:
+        boat: SF
+        time: '28:51'
+      David_G:
+        boat: LASE
+        time: '60:00'
+      Rod_H:
+        boat: LASEM
+        time: '27:03'
+      Ron_F:
+        boat: F5
+        time: DNF
+    wind: 2-3
+  2:
+    RC:
+    - David_Bu
+    - John_T
+    date: '2019_04_28'
+    notes: Race canceled due to storm cell.
+    skip: {}
+    wind: '?'
+  3:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2019_05_05'
+    notes: M2 270
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:28'
+      Chris_E:
+        boat: SF
+        time: '17:15'
+      David_G:
+        boat: LASE
+        time: '28:05'
+      Lewis_V:
+        boat: BCN
+        time: '19:40'
+      Pat_B:
+        boat: WF
+        time: '21:17'
+      Rod_H:
+        boat: LASEM
+        time: '16:59'
+      Ron_F:
+        boat: F5
+        time: '16:19'
+    wind: 2-3
+  4:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2019_05_05'
+    notes: M2 270
+    skip:
+      Bill_P:
+        boat: SF
+        time: '23:34'
+      Chris_E:
+        boat: SF
+        time: '21:53'
+      David_G:
+        boat: LASE
+        time: '22:46'
+      Lewis_V:
+        boat: BCN
+        time: '22:35'
+      Pat_B:
+        boat: WF
+        time: '27:11'
+      Rod_H:
+        boat: LASEM
+        time: '20:26'
+      Ron_F:
+        boat: F5
+        time: '21:04'
+    wind: 2-3
+  5:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2019_05_05'
+    notes: M2 270
+    skip:
+      Bill_P:
+        boat: SF
+        time: '20:30'
+      Chris_E:
+        boat: SF
+        time: '20:14'
+      David_G:
+        boat: LASE
+        time: '22:10'
+      Lewis_V:
+        boat: BCN
+        time: '22:50'
+      Pat_B:
+        boat: WF
+        time: '26:53'
+      Rod_H:
+        boat: LASEM
+        time: '18:57'
+      Ron_F:
+        boat: F5
+        time: DNF
+    wind: 2-3
+  6:
+    RC:
+    - Mike_F
+    - Nedra_F
+    - Chris_E
+    date: '2019_05_19'
+    notes: M2 280
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '23:40'
+      Bill_P:
+        boat: SF
+        time: '28:17'
+      David_Bu:
+        boat: SF
+        time: '29:08'
+      David_G:
+        boat: LASE
+        time: '60:00'
+      Lewis_V:
+        boat: BCN
+        time: '25:54'
+      Pat_B:
+        boat: WF
+        time: '29:26'
+      Rod_H:
+        boat: LASEM
+        time: '26:28'
+      Ron_F:
+        boat: F5
+        time: '28:10'
+    wind: 2-3
+  7:
+    RC:
+    - Mike_F
+    - Nedra_F
+    - Chris_E
+    date: '2019_05_19'
+    notes: M2 280
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '22:14'
+      Bill_P:
+        boat: SF
+        time: '30:54'
+      David_Bu:
+        boat: SF
+        time: '31:10'
+      David_G:
+        boat: LASE
+        time: '52:40'
+      Lewis_V:
+        boat: BCN
+        time: '26:30'
+      Pat_B:
+        boat: WF
+        time: DNF
+      Rod_H:
+        boat: LASEM
+        time: '26:21'
+      Ron_F:
+        boat: F5
+        time: '23:53'
+    wind: '4'
+  8:
+    RC:
+    - Bill_P
+    - Mike_S
+    date: '2019_06_09'
+    notes: M3
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '37:36'
+      Chris_E:
+        boat: SF
+        time: '37:17'
+      David_G:
+        boat: LASE
+        time: '37:16'
+      Mike_F:
+        boat: SF
+        time: '35:52'
+      Nedra_F:
+        boat: SF
+        time: '37:34'
+      Rod_H:
+        boat: LASEM
+        time: '36:45'
+      Ron_F:
+        boat: F5
+        time: '34:59'
+    wind: 2-3
+  9:
+    RC:
+    - Bill_P
+    - Mike_S
+    date: '2019_06_09'
+    notes: M2 280
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '36:18'
+      Chris_E:
+        boat: SF
+        time: '37:39'
+      David_G:
+        boat: LASE
+        time: '38:56'
+      Mike_F:
+        boat: SF
+        time: '35:56'
+      Nedra_F:
+        boat: SF
+        time: '38:11'
+      Rod_H:
+        boat: LASEM
+        time: '35:50'
+      Ron_F:
+        boat: F5
+        time: '37:24'
+    wind: 2-3
+  10:
+    RC:
+    - Rod_H
+    - David_G
+    date: '2019_06_16'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '65:15'
+      Chris_E:
+        boat: SF
+        time: '67:28'
+      David_Bu:
+        boat: SF
+        time: '71:04'
+      John_T:
+        boat: US-1
+        time: '56:12'
+      Mike_F:
+        boat: SF
+        time: '54:41'
+      Nedra_F:
+        boat: SF
+        time: DNF
+      Nick_H:
+        boat: SF
+        time: '70:22'
+      Ron_F:
+        boat: F5
+        time: '58:30'
+    wind: 2-3
+  11:
+    RC:
+    - Rod_H
+    - David_G
+    date: '2019_06_16'
+    notes: I1
+    skip:
+      Bill_P:
+        boat: SF
+        time: '15:46'
+      David_Bu:
+        boat: SF
+        time: '14:56'
+      Eric_P:
+        boat: SWSX
+        time: '15:31'
+      John_T:
+        boat: US-1
+        time: DNF
+      Mike_F:
+        boat: SF
+        time: DNF
+      Nedra_F:
+        boat: SF
+        time: DNF
+      Ron_F:
+        boat: F5
+        time: DNF
+    wind: 2-3

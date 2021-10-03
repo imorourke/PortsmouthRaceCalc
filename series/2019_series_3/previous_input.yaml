@@ -1,0 +1,105 @@
+race:
+  1:
+    RC:
+    - Rod_H
+    - John_T
+    date: '2019_08_11'
+    notes: I2 Port
+    skip:
+      Bill_P:
+        boat: SF
+        time: '34:42'
+      Ian_O:
+        boat: SF
+        time: '39:58'
+      Mike_F:
+        boat: SF
+        time: '33:39'
+      Mike_S:
+        boat: US-1
+        time: '34:27'
+      Nedra_F:
+        boat: SF
+        time: '34:17'
+    wind: 2-3
+  2:
+    RC:
+    - Rod_H
+    - John_T
+    date: '2019_08_11'
+    notes: I2 Port
+    skip:
+      Bill_P:
+        boat: SF
+        time: '30:03'
+      Ian_O:
+        boat: SF
+        time: '32:38'
+      Mike_F:
+        boat: SF
+        time: '27:17'
+      Mike_S:
+        boat: US-1
+        time: '26:38'
+      Nedra_F:
+        boat: SF
+        time: '29:31'
+    wind: 2-3
+  3:
+    RC:
+    - Bill_P
+    - Mike_S
+    date: '2019_08_18'
+    notes: M2 Starboard
+    skip:
+      David_Bu:
+        boat: SF
+        time: '41:25'
+      Ian_O:
+        boat: SF
+        time: '49:03'
+      John_T:
+        boat: SF
+        time: '41:16'
+      Mike_F:
+        boat: SF
+        time: '40:21'
+      Nedra_F:
+        boat: SF
+        time: '41:38'
+      Rod_H:
+        boat: LASEM
+        time: '39:54'
+      Ron_F:
+        boat: F5
+        time: '36:14'
+    wind: 2-3
+  4:
+    RC:
+    - Bill_P
+    - Mike_S
+    date: '2019_08_18'
+    notes: I2 Port
+    skip:
+      David_Bu:
+        boat: SF
+        time: '52:50'
+      Ian_O:
+        boat: SF
+        time: '64:26'
+      John_T:
+        boat: SF
+        time: '52:15'
+      Mike_F:
+        boat: SF
+        time: '44:43'
+      Nedra_F:
+        boat: SF
+        time: '51:46'
+      Rod_H:
+        boat: LASEM
+        time: '57:51'
+      Ron_F:
+        boat: F5
+        time: '47:21'
+    wind: 2-3

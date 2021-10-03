@@ -1,0 +1,800 @@
+race:
+  1:
+    RC:
+    - Barry_O
+    - Rod_H
+    date: '2017_04_30'
+    notes: no races, due to rain
+    skip: {}
+    wind: 0-1
+  2:
+    RC:
+    - Barry_O
+    - Rod_H
+    date: '2017_04_30'
+    notes: no races, due to rain
+    skip: {}
+    wind: 0-1
+  3:
+    RC:
+    - John_T
+    - Mike_S
+    - Ralph_H
+    date: '2017_05_07'
+    notes: M3 180
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '36:23'
+      Barry_O:
+        boat: HLR14
+        time: '45:32'
+      Bill_P:
+        boat: SF
+        time: '41:24'
+      Chris_E:
+        boat: SF
+        time: '38:35'
+      Lewis_V:
+        boat: BCN
+        time: '37:31'
+      Mike_F:
+        boat: SF
+        time: '38:15'
+      Nedra_F:
+        boat: SF
+        time: '40:22'
+    wind: 2-3
+  4:
+    RC:
+    - John_T
+    - Mike_S
+    - Ralph_H
+    date: '2017_05_07'
+    notes: M3 180
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '41:17'
+      Barry_O:
+        boat: HLR14
+        time: DNF
+      Bill_P:
+        boat: SF
+        time: '43:42'
+      Chris_E:
+        boat: SF
+        time: '49:50'
+      Lewis_V:
+        boat: BCN
+        time: '41:26'
+      Mike_F:
+        boat: SF
+        time: '43:49'
+      Nedra_F:
+        boat: SF
+        time: '43:08'
+    wind: 2-3
+  5:
+    RC:
+    - Lewis_V
+    - Chris_E
+    date: '2017_05_21'
+    notes: I3 270
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '35:04'
+      Eliot_A:
+        boat: SWSX
+        time: '38:10'
+      Ralph_H:
+        boat: SF
+        time: '43:47'
+      Rod_H:
+        boat: LASEM
+        time: '35:32'
+      Ron_F:
+        boat: F5
+        time: '36:02'
+    wind: 2-3
+  6:
+    RC:
+    - Lewis_V
+    - Chris_E
+    date: '2017_05_21'
+    notes: I3 270
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '44:08'
+      Betsy_H:
+        boat: SF
+        time: '60:00'
+      Bill_P:
+        boat: SF
+        time: '36:23'
+      Rod_H:
+        boat: LASEM
+        time: '34:44'
+      Ron_F:
+        boat: F5
+        time: '44:36'
+    wind: 2-3
+  7:
+    RC:
+    - Mike_F
+    - Nedra_F
+    - Sara_M
+    date: '2017_06_04'
+    notes: no races, due to thunder
+    skip: {}
+    wind: 0-1
+  8:
+    RC:
+    - Mike_F
+    - Nedra_F
+    - Sara_M
+    date: '2017_06_04'
+    notes: no races, due to thunder
+    skip: {}
+    wind: 0-1
+  9:
+    RC:
+    - Gail_B
+    - Mike_B
+    date: '2017_06_11'
+    notes: windy
+    skip: {}
+    wind: 0-1
+  10:
+    RC:
+    - Gail_B
+    - Mike_B
+    date: '2017_06_11'
+    notes: windy
+    skip: {}
+    wind: 0-1
+  11:
+    RC:
+    - Bill_P
+    - Barry_O
+    date: '2017_06_18'
+    notes: M3 340
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '31:11'
+      Chris_E:
+        boat: SF
+        time: '35:24'
+      John_T:
+        boat: US-1
+        time: DNF
+      Lewis_V:
+        boat: BCN
+        time: '28:40'
+      Mike_F:
+        boat: SF
+        time: '33:36'
+      Rod_H:
+        boat: LASEM
+        time: '31:05'
+      Ron_F:
+        boat: F5
+        time: '30:04'
+    wind: 2-3
+  12:
+    RC:
+    - Bill_P
+    - Barry_O
+    date: '2017_06_18'
+    notes: M3 340
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '27:52'
+      Chris_E:
+        boat: SF
+        time: '28:09'
+      John_T:
+        boat: US-1
+        time: DNF
+      Lewis_V:
+        boat: BCN
+        time: '28:24'
+      Mike_F:
+        boat: SF
+        time: '29:58'
+      Rod_H:
+        boat: LASEM
+        time: '30:09'
+      Ron_F:
+        boat: F5
+        time: '26:17'
+    wind: 2-3
+  13:
+    RC:
+    - Art_M
+    - Sara_M
+    date: '2017_06_25'
+    notes: M3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '53:07'
+      Bill_P:
+        boat: SF
+        time: '46:43'
+      Chris_E:
+        boat: SF
+        time: '49:09'
+      David_Bu:
+        boat: SF
+        time: '50:18'
+      Gail_B:
+        boat: SWSX
+        time: '53:38'
+      John_T:
+        boat: US-1
+        time: '38:01'
+      Lewis_V:
+        boat: BCN
+        time: '47:21'
+      Mike_F:
+        boat: SF
+        time: '45:15'
+      Mike_S:
+        boat: FSCT
+        time: '43:03'
+      Nedra_F:
+        boat: SF
+        time: '48:18'
+      Rod_H:
+        boat: LASEM
+        time: '46:49'
+      Ron_F:
+        boat: F5
+        time: '42:37'
+      Xavier:
+        boat: SWSX
+        time: DSQ
+    wind: 0-1
+  14:
+    RC:
+    - Art_M
+    - Sara_M
+    date: '2017_06_25'
+    notes: M3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '54:42'
+      Bill_P:
+        boat: SF
+        time: '51:53'
+      Chris_E:
+        boat: SF
+        time: '53:06'
+      David_Bu:
+        boat: SF
+        time: '51:51'
+      Gail_B:
+        boat: SWSX
+        time: '57:32'
+      John_T:
+        boat: US-1
+        time: '43:27'
+      Lewis_V:
+        boat: BCN
+        time: '45:09'
+      Mike_F:
+        boat: SF
+        time: '46:48'
+      Mike_S:
+        boat: FSCT
+        time: '46:04'
+      Nedra_F:
+        boat: SF
+        time: '53:28'
+      Rod_H:
+        boat: LASEM
+        time: '46:54'
+      Ron_F:
+        boat: F5
+        time: '47:59'
+      Xavier:
+        boat: SWSX
+        time: '49:03'
+    wind: 0-1
+  15:
+    RC:
+    - Ron_F
+    - David_Bu
+    date: '2017_07_09'
+    notes: M2 180 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '35:58'
+      Barry_O:
+        boat: HLR14
+        time: '47:27'
+      Chris_E:
+        boat: SF
+        time: '41:00'
+      Lewis_V:
+        boat: BCN
+        time: '37:56'
+      Mike_F:
+        boat: SF
+        time: '40:30'
+      Mike_S:
+        boat: FSCT
+        time: '39:13'
+      Nedra_F:
+        boat: SF
+        time: '43:29'
+      Rod_H:
+        boat: LASEM
+        time: '38:55'
+      Xavier:
+        boat: SWSX
+        time: '40:10'
+    wind: 2-3
+  16:
+    RC:
+    - Ron_F
+    - David_Bu
+    date: '2017_07_09'
+    notes: M3 180 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '34:37'
+      Chris_E:
+        boat: SF
+        time: '36:54'
+      Lewis_V:
+        boat: BCN
+        time: '36:52'
+      Mike_F:
+        boat: SF
+        time: '36:14'
+      Mike_S:
+        boat: FSCT
+        time: '33:51'
+      Nedra_F:
+        boat: SF
+        time: '38:24'
+      Rod_H:
+        boat: LASEM
+        time: '37:21'
+      Sara_M:
+        boat: BNSH
+        time: '47:56'
+      Xavier:
+        boat: SWSX
+        time: '37:35'
+    wind: 2-3
+  17:
+    RC:
+    - Lewis_V
+    - Chris_E
+    date: '2017_07_16'
+    notes: M2 270 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '29:53'
+      David_Bu:
+        boat: SF
+        time: '31:19'
+      Gail_B:
+        boat: SWSX
+        time: '60:00'
+      John_T:
+        boat: US-1
+        time: '28:08'
+      Mike_S:
+        boat: SF
+        time: '35:32'
+      Rod_H:
+        boat: LASEM
+        time: '28:46'
+      Xavier:
+        boat: SWSX
+        time: '30:41'
+    wind: 0-1
+  18:
+    RC:
+    - Lewis_V
+    - Chris_E
+    date: '2017_07_16'
+    notes: M2 270 Port Rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '49:55'
+      David_Bu:
+        boat: SF
+        time: '67:55'
+      Gail_B:
+        boat: SWSX
+        time: DNF
+      John_T:
+        boat: US-1
+        time: '46:43'
+      Mike_S:
+        boat: SF
+        time: '68:13'
+      Rod_H:
+        boat: LASEM
+        time: '67:48'
+      Xavier:
+        boat: SWSX
+        time: '61:49'
+    wind: 0-1
+  19:
+    RC:
+    - Mike_S
+    - Nick_H
+    - Steve_R
+    date: '2017_07_23'
+    notes: I2 90  Port Rounding   shortend to 1 lap
+    skip:
+      Bill_P:
+        boat: SF
+        time: '43:36'
+      Lewis_V:
+        boat: SF
+        time: '51:06'
+      Rod_H:
+        boat: PUF
+        time: DNF
+      Ron_F:
+        boat: F5
+        time: '38:05'
+    wind: 0-1
+  20:
+    RC:
+    - Mike_S
+    - Nick_H
+    - Steve_R
+    date: '2017_07_23'
+    notes: No race, lack of wind, skipper and interest.
+    skip: {}
+    wind: 0-1
+  21:
+    RC:
+    - Barry_O
+    - Rod_H
+    date: '2017_07_30'
+    notes: M2 90,  shortened to M1
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '26:48'
+      Bill_P:
+        boat: SF
+        time: '29:49'
+      David_Bu:
+        boat: SF
+        time: '26:11'
+      John_T:
+        boat: US-1
+        time: '20:34'
+      Lewis_V:
+        boat: BCN
+        time: '27:03'
+      Mike_F:
+        boat: SF
+        time: '20:58'
+      Nedra_F:
+        boat: SF
+        time: DNF
+      Ron_F:
+        boat: F5
+        time: '26:48'
+      Xavier:
+        boat: SWSX
+        time: '25:56'
+    wind: 0-1
+  22:
+    RC:
+    - Barry_O
+    - Rod_H
+    date: '2017_07_30'
+    notes: M2 90
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '24:28'
+      Bill_P:
+        boat: SF
+        time: '27:45'
+      David_Bu:
+        boat: SF
+        time: '28:05'
+      John_T:
+        boat: US-1
+        time: '23:48'
+      Lewis_V:
+        boat: BCN
+        time: '23:19'
+      Mike_F:
+        boat: SF
+        time: '24:52'
+      Nedra_F:
+        boat: SF
+        time: '27:55'
+      Ron_F:
+        boat: F5
+        time: '24:17'
+      Xavier:
+        boat: SWSX
+        time: '26:34'
+    wind: 2-3
+  23:
+    RC:
+    - John_T
+    - Ralph_H
+    - Betsy_H
+    date: '2017_08_13'
+    notes: M3 180
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '28:38'
+      Bill_P:
+        boat: SF
+        time: '33:08'
+      Gail_B:
+        boat: SWSX
+        time: '40:58'
+      Josh:
+        boat: SWSX
+        time: '35:43'
+      Mike_F:
+        boat: SF
+        time: '30:23'
+      Mike_S:
+        boat: FSCT
+        time: '28:56'
+      Nedra_F:
+        boat: SF
+        time: '33:46'
+      New_W:
+        boat: SF
+        time: '39:55'
+      Nick_H:
+        boat: SF
+        time: '33:48'
+      Rod_H:
+        boat: PUF
+        time: '34:04'
+      Ron_F:
+        boat: F5
+        time: '28:29'
+      Xavier:
+        boat: SWSX
+        time: '29:35'
+    wind: 2-3
+  24:
+    RC:
+    - John_T
+    - Ralph_H
+    - Betsy_H
+    date: '2017_08_13'
+    notes: M2 180
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '34:25'
+      Bill_P:
+        boat: SF
+        time: '37:17'
+      Gail_B:
+        boat: SWSX
+        time: '42:17'
+      Josh:
+        boat: SWSX
+        time: DNF
+      Mike_F:
+        boat: SF
+        time: '30:26'
+      Mike_S:
+        boat: FSCT
+        time: '29:35'
+      Nedra_F:
+        boat: SF
+        time: '37:45'
+      Nick_H:
+        boat: SF
+        time: '39:32'
+      Rod_H:
+        boat: PUF
+        time: '37:00'
+      Ron_F:
+        boat: F5
+        time: '30:13'
+    wind: 2-3
+  25:
+    RC:
+    - Nick_H
+    - David_Bu
+    date: '2017_08_20'
+    notes: M2 90 thin triangle
+    skip:
+      Gail_B:
+        boat: SWSX
+        time: '35:52'
+      Rod_H:
+        boat: PUF
+        time: '25:22'
+      Ron_F:
+        boat: F5
+        time: '23:30'
+      Xavier:
+        boat: SWSX
+        time: '23:58'
+    wind: 2-3
+  26:
+    RC:
+    - Nick_H
+    - David_Bu
+    date: '2017_08_20'
+    notes: M2 90 thin triangle light winds
+    skip:
+      Gail_B:
+        boat: SWSX
+        time: '38:36'
+      Rod_H:
+        boat: PUF
+        time: '37:10'
+      Ron_F:
+        boat: F5
+        time: '33:50'
+      Xavier:
+        boat: SWSX
+        time: '33:44'
+    wind: 0-1
+  27:
+    RC:
+    - Barry_O
+    - Gail_B
+    date: '2017_08_27'
+    notes: No races due to rain / thunder
+    skip: {}
+    wind: 0-1
+  28:
+    RC:
+    - Barry_O
+    - Gail_B
+    date: '2017_08_27'
+    notes: No races due to rain / thunder
+    skip: {}
+    wind: 0-1
+  29:
+    RC:
+    - Barry_O
+    date: '2017_09_10'
+    notes: M2 180
+    skip:
+      Bill_P:
+        boat: SF
+        time: '46:00'
+      David_Bu:
+        boat: SF
+        time: '54:29'
+      Lewis_V:
+        boat: BCN
+        time: '47:31'
+      Mike_F:
+        boat: SF
+        time: '46:02'
+      Nedra_F:
+        boat: SF
+        time: '48:43'
+      Rod_H:
+        boat: PUF
+        time: '56:30'
+      Ron_F:
+        boat: F5
+        time: '47:15'
+      Xavier:
+        boat: SWSX
+        time: '41:38'
+    wind: 0-1
+  30:
+    RC:
+    - Barry_O
+    date: '2017_09_10'
+    notes: M2 180
+    skip:
+      Bill_P:
+        boat: SF
+        time: '27:31'
+      Lewis_V:
+        boat: BCN
+        time: '25:01'
+      Mike_F:
+        boat: SF
+        time: '27:16'
+      Rod_H:
+        boat: PUF
+        time: '28:03'
+      Ron_F:
+        boat: F5
+        time: '24:20'
+      Xavier:
+        boat: SWSX
+        time: '27:06'
+    wind: 2-3
+  31:
+    RC:
+    - Bill_P
+    - Ron_F
+    date: '2017_09_17'
+    notes: no races due to lack of skippers
+    skip: {}
+    wind: 0-1
+  32:
+    RC:
+    - Bill_P
+    - Ron_F
+    date: '2017_09_17'
+    notes: no races due to lack of skippers
+    skip: {}
+    wind: 0-1
+  33:
+    RC:
+    - Barry_O
+    date: '2017_09_24'
+    notes: M3 RC from the dock
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '32:03'
+      Bill_P:
+        boat: SF
+        time: '33:50'
+      Nick_H:
+        boat: SF
+        time: '35:05'
+      Rod_H:
+        boat: PUF
+        time: '35:12'
+      Ron_F:
+        boat: F5
+        time: '31:35'
+    wind: 2-3
+  34:
+    RC:
+    - Barry_O
+    - Anita_M
+    date: '2017_09_24'
+    notes: M3 RC from the dock
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '40:11'
+      Bill_P:
+        boat: SF
+        time: '41:02'
+      Mike_F:
+        boat: SF
+        time: '40:18'
+      Nedra_F:
+        boat: SF
+        time: '42:20'
+      Nick_H:
+        boat: SF
+        time: DNF
+      Rod_H:
+        boat: PUF
+        time: '43:08'
+      Ron_F:
+        boat: F5
+        time: '36:37'
+    wind: 2-3

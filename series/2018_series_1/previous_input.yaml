@@ -1,0 +1,272 @@
+race:
+  1:
+    RC:
+    - Gail_K
+    - Mike_K
+    - Steve_R
+    date: '2018_04_29'
+    notes: no races, due to lack of skippers
+    skip: {}
+    wind: 0-1
+  2:
+    RC:
+    - Gail_K
+    - Mike_K
+    - Steve_R
+    date: '2018_04_29'
+    notes: no races, due to lack of skippers
+    skip: {}
+    wind: 0-1
+  3:
+    RC:
+    - John_T
+    - Betsy_H
+    - Ralph_H
+    date: '2018_05_06'
+    notes: M2 0
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '36:27'
+      Barry_O:
+        boat: HLR14
+        time: '48:11'
+      Chris_E:
+        boat: SF
+        time: '38:09'
+      Lewis_V:
+        boat: BCN
+        time: '46:56'
+      Mike_F:
+        boat: SF
+        time: '35:51'
+      Nedra_F:
+        boat: SF
+        time: '38:11'
+      Rod_H:
+        boat: LASEM
+        time: '35:12'
+      Ron_F:
+        boat: F5
+        time: '36:58'
+    wind: 2-3
+  4:
+    RC:
+    - John_T
+    - Betsy_H
+    - Ralph_H
+    date: '2018_05_06'
+    notes: M2 0
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '26:34'
+      Barry_O:
+        boat: HLR14
+        time: '38:25'
+      Chris_E:
+        boat: SF
+        time: '26:19'
+      Lewis_V:
+        boat: BCN
+        time: '28:20'
+      Mike_F:
+        boat: SF
+        time: '26:35'
+      Nedra_F:
+        boat: SF
+        time: '30:20'
+      Rod_H:
+        boat: LASEM
+        time: '26:02'
+      Ron_F:
+        boat: F5
+        time: '24:37'
+    wind: 2-3
+  5:
+    RC:
+    - Rod_H
+    - Chris_E
+    date: '2018_05_20'
+    notes: lack of skippers
+    skip: {}
+    wind: 0-1
+  6:
+    RC:
+    - Rod_H
+    - Chris_E
+    date: '2018_05_20'
+    notes: lack of skippers
+    skip: {}
+    wind: 0-1
+  7:
+    RC:
+    - Lewis_V
+    - Ron_F
+    date: '2018_06_03'
+    notes: O course M plus an I  1 lap
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '31:54'
+      Bill_P:
+        boat: SF
+        time: '29:44'
+      Chris_E:
+        boat: SF
+        time: '27:41'
+      Eric_P:
+        boat: SWSX
+        time: '32:12'
+      John_T:
+        boat: US-1
+        time: DNF
+      Nick_H:
+        boat: SF
+        time: '29:47'
+      Pat_B:
+        boat: WF
+        time: '29:34'
+      Rod_H:
+        boat: LASEM
+        time: '27:45'
+    wind: 2-3
+  8:
+    RC:
+    - Lewis_V
+    - Ron_F
+    date: '2018_06_03'
+    notes: O course M plus an I  1 lap
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: DSQ
+      Bill_P:
+        boat: SF
+        time: '27:22'
+      Chris_E:
+        boat: SF
+        time: '31:06'
+      Eric_P:
+        boat: SWSX
+        time: '32:33'
+      Nick_H:
+        boat: SF
+        time: DNF
+      Pat_B:
+        boat: WF
+        time: '32:46'
+      Rod_H:
+        boat: LASEM
+        time: '25:45'
+    wind: 2-3
+  9:
+    RC:
+    - Lewis_V
+    - Ron_F
+    date: '2018_06_03'
+    notes: O course M plus an I  1 lap
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '28:52'
+      Chris_E:
+        boat: SF
+        time: '26:19'
+      Eric_P:
+        boat: SWSX
+        time: '26:37'
+      Pat_B:
+        boat: WF
+        time: '36:00'
+      Rod_H:
+        boat: LASEM
+        time: '27:02'
+    wind: 2-3
+  10:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2018_06_10'
+    notes: M course 2 laps starboard rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '17:41'
+      Chris_E:
+        boat: SF
+        time: '18:58'
+      David_Bu:
+        boat: SF
+        time: '21:39'
+      Mike_F:
+        boat: SF
+        time: '22:53'
+      Nedra_F:
+        boat: SF
+        time: '20:10'
+      Pat_B:
+        boat: WF
+        time: '19:50'
+      Rod_H:
+        boat: LASEM
+        time: '18:17'
+      Ron_F:
+        boat: F5
+        time: DNF
+    wind: 2-3
+  11:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2018_06_10'
+    notes: M course 2 laps starboard rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '17:02'
+      Chris_E:
+        boat: SF
+        time: DNF
+      David_Bu:
+        boat: SF
+        time: DNF
+      Mike_F:
+        boat: SF
+        time: '17:08'
+      Nedra_F:
+        boat: SF
+        time: '18:27'
+      Pat_B:
+        boat: WF
+        time: '19:50'
+      Rod_H:
+        boat: LASEM
+        time: '17:17'
+      Ron_F:
+        boat: F5
+        time: '17:07'
+    wind: 2-3
+  12:
+    RC:
+    - Barry_O
+    - Nick_H
+    date: '2018_06_10'
+    notes: M course 2 laps starboard rounding
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '17:48'
+      Chris_E:
+        boat: SF
+        time: '18:10'
+      Pat_B:
+        boat: WF
+        time: '21:30'
+      Rod_H:
+        boat: LASEM
+        time: '17:20'
+      Ron_F:
+        boat: F5
+        time: '18:35'
+    wind: 2-3

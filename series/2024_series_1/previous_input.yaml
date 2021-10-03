@@ -1,0 +1,245 @@
+race:
+  1:
+    RC:
+    - Matt_L
+    - Chris_E
+    date: '2024_04_14'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '41:12'
+      Heather_B:
+        boat: SF
+        time: '43:08'
+      Ian_O:
+        boat: US-1
+        time: '40:42'
+      Jim_M:
+        boat: SF
+        time: '42:16'
+      Ryan_C:
+        boat: PIRAT
+        time: '44:00'
+    wind: 2-3
+  2:
+    RC:
+    - Matt_L
+    - Chris_E
+    date: '2024_04_14'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '26:13'
+      Heather_B:
+        boat: SF
+        time: '29:36'
+      Ian_O:
+        boat: US-1
+        time: '22:39'
+      Jim_M:
+        boat: SF
+        time: '30:26'
+      Ryan_C:
+        boat: PIRAT
+        time: '31:20'
+    wind: 2-3
+  3:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2024_04_21'
+    notes: I3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '27:15'
+      Bill_P:
+        boat: SF
+        time: '24:32'
+      Heather_B:
+        boat: SF
+        time: DNF
+      Jim_M:
+        boat: CAT125
+        time: '37:53'
+      Matt_L:
+        boat: F5
+        time: '25:35'
+      Ryan_C:
+        boat: PIRAT
+        time: '35:19'
+    wind: 2-3
+  4:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2024_04_21'
+    notes: I3
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '34:11'
+      Bill_P:
+        boat: SF
+        time: '24:30'
+      Jim_M:
+        boat: CAT125
+        time: '38:33'
+      Matt_L:
+        boat: F5
+        time: '25:33'
+      Ryan_C:
+        boat: PIRAT
+        time: '36:13'
+    wind: 2-3
+  5:
+    RC:
+    - Barry_O
+    - Bill_P
+    - Heather_B
+    date: '2024_04_28'
+    notes: Triangle
+    skip:
+      Ian_O:
+        boat: US-1
+        time: '20:02'
+      Matt_L:
+        boat: F5
+        time: '19:29'
+      Matt_T:
+        boat: SF
+        time: '26:14'
+      Rod_H:
+        boat: LASEM
+        time: '17:52'
+    wind: 2-3
+  6:
+    RC:
+    - Barry_O
+    - Bill_P
+    - Heather_B
+    date: '2024_04_28'
+    notes: Triangle
+    skip:
+      Ian_O:
+        boat: US-1
+        time: '20:09'
+      Matt_L:
+        boat: F5
+        time: '20:06'
+      Matt_T:
+        boat: SF
+        time: '21:13'
+      Rod_H:
+        boat: LASEM
+        time: '19:26'
+    wind: 2-3
+  7:
+    RC:
+    - Nick_H
+    - Ryan_C
+    date: '2024_05_05'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '30:25'
+      Chris_E:
+        boat: SF
+        time: '30:55'
+      Heather_B:
+        boat: SF
+        time: FIP_6
+      Ian_O:
+        boat: US-1
+        time: '27:31'
+      Matt_L:
+        boat: F5
+        time: '29:43'
+      Rod_H:
+        boat: LASEM
+        time: '27:26'
+    wind: 0-1
+  8:
+    RC:
+    - Nick_H
+    - Ryan_C
+    date: '2024_05_05'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:18'
+      Chris_E:
+        boat: SF
+        time: '23:47'
+      Ian_O:
+        boat: US-1
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '22:48'
+      Rod_H:
+        boat: LASEM
+        time: '20:16'
+    wind: 2-3
+  9:
+    RC:
+    - Nick_H
+    - David_Bu
+    date: '2024_06_02'
+    notes: M2
+    skip:
+      Gary_V:
+        boat: SF
+        time: '23:33'
+      Heather_B:
+        boat: SF
+        time: '23:00'
+      Jim_S:
+        boat: SF
+        time: '26:06'
+      John_M:
+        boat: SF
+        time: '22:13'
+      Matt_L:
+        boat: F5
+        time: '21:48'
+      Ryan_C:
+        boat: PIRAT
+        time: '24:22'
+      Sam:
+        boat: SF
+        time: '26:04'
+    wind: 2-3
+  10:
+    RC:
+    - Nick_H
+    - David_Bu
+    date: '2024_06_02'
+    notes: M2
+    skip:
+      Gary_V:
+        boat: SF
+        time: '21:30'
+      Heather_B:
+        boat: SF
+        time: '23:33'
+      Jim_S:
+        boat: SF
+        time: DNF
+      John_M:
+        boat: SF
+        time: '20:57'
+      Matt_L:
+        boat: F5
+        time: '18:52'
+      Ryan_C:
+        boat: PIRAT
+        time: DNF
+      Sam:
+        boat: SF
+        time: '27:14'
+    wind: 2-3

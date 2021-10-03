@@ -1,0 +1,252 @@
+race:
+  1:
+    RC:
+    - Rod_H
+    - Jim_S
+    date: '2023_07_23'
+    notes: I2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '35:25'
+      Bill_P:
+        boat: SF
+        time: '30:26'
+      Dennis_S:
+        boat: SF
+        time: FIP_6
+      Ian_O:
+        boat: SF
+        time: '29:51'
+      Lewis_V:
+        boat: BCN
+        time: '27:34'
+      Matt_L:
+        boat: F5
+        time: '31:02'
+    wind: 2-3
+  2:
+    RC:
+    - Rod_H
+    - Jim_S
+    date: '2023_07_23'
+    notes: I2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '29:51'
+      Bill_P:
+        boat: SF
+        time: '27:19'
+      Ian_O:
+        boat: SF
+        time: '25:40'
+      Lewis_V:
+        boat: BCN
+        time: '21:16'
+      Matt_L:
+        boat: F5
+        time: '27:08'
+    wind: 2-3
+  3:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2023_07_30'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '28:27'
+      Bill_P:
+        boat: SF
+        time: '23:39'
+      Gary_V:
+        boat: SF
+        time: FIP_7
+      Ian_O:
+        boat: SF
+        time: '22:51'
+      Matt_L:
+        boat: F5
+        time: '24:43'
+      Matt_T:
+        boat: SF
+        time: '23:17'
+      Ryan_C:
+        boat: SF
+        time: '29:56'
+    wind: 2-3
+  4:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2023_07_30'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '32:26'
+      Bill_P:
+        boat: SF
+        time: '25:15'
+      Gary_V:
+        boat: SF
+        time: '35:50'
+      Ian_O:
+        boat: SF
+        time: '24:33'
+      Matt_L:
+        boat: F5
+        time: '26:36'
+      Matt_T:
+        boat: SF
+        time: '25:26'
+      Ryan_C:
+        boat: SF
+        time: '33:53'
+    wind: 2-3
+  5:
+    RC:
+    - Bill_P
+    - Barry_O
+    date: '2023_08_06'
+    notes: M3
+    skip:
+      Craig_J:
+        boat: STFS
+        time: '34:34'
+      Ian_O:
+        boat: SF
+        time: '25:33'
+      Lewis_V:
+        boat: BCN
+        time: '22:59'
+      Matt_L:
+        boat: F5
+        time: '28:30'
+      Rod_H:
+        boat: LASEM
+        time: '22:14'
+    wind: 2-3
+  6:
+    RC:
+    - Bill_P
+    - Barry_O
+    date: '2023_08_06'
+    notes: M3
+    skip:
+      Craig_J:
+        boat: STFS
+        time: DNF
+      Ian_O:
+        boat: SF
+        time: '26:34'
+      Lewis_V:
+        boat: BCN
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '24:10'
+      Rod_H:
+        boat: LASEM
+        time: '21:43'
+    wind: '4'
+  7:
+    RC:
+    - Ian_O
+    - Matt_T
+    date: '2023_08_20'
+    notes: M2
+    skip:
+      David_Bu:
+        boat: SF
+        time: '29:45'
+      Matt_L:
+        boat: F5
+        time: '30:47'
+      Rod_H:
+        boat: LASEM
+        time: '29:13'
+      Ryan_C:
+        boat: SF
+        time: '33:03'
+    wind: 2-3
+  8:
+    RC:
+    - Ian_O
+    - Matt_T
+    date: '2023_08_20'
+    notes: M2
+    skip:
+      David_Bu:
+        boat: SF
+        time: '28:08'
+      Matt_L:
+        boat: F5
+        time: '28:26'
+      Rod_H:
+        boat: LASEM
+        time: '28:01'
+      Ryan_C:
+        boat: SF
+        time: '31:11'
+    wind: 2-3
+  9:
+    RC:
+    - Nick_H
+    - Matt_L
+    date: '2023_08_27'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '31:00'
+      Chris_E:
+        boat: SF
+        time: '34:19'
+      David_Bu:
+        boat: SF
+        time: '31:05'
+      Heather_B:
+        boat: SF
+        time: '34:23'
+      Ian_O:
+        boat: SF
+        time: '33:21'
+      Matt_T:
+        boat: SF
+        time: '31:55'
+      Rod_H:
+        boat: LASEM
+        time: '30:23'
+    wind: 2-3
+  10:
+    RC:
+    - Nick_H
+    - Matt_L
+    date: '2023_08_27'
+    notes: M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '33:51'
+      Chris_E:
+        boat: SF
+        time: '37:51'
+      David_Bu:
+        boat: SF
+        time: '34:47'
+      Heather_B:
+        boat: SF
+        time: '47:20'
+      Ian_O:
+        boat: SF
+        time: '35:41'
+      Matt_T:
+        boat: SF
+        time: '38:05'
+      Rod_H:
+        boat: LASEM
+        time: '33:56'
+    wind: 2-3

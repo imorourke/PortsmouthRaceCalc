@@ -1,0 +1,263 @@
+race:
+  1:
+    RC:
+    - Heather_B
+    - Ryan_C
+    date: '2024_08_18'
+    notes: M2 - Shortened from M3
+    skip:
+      Bill_P:
+        boat: SF
+        time: '27:03'
+      Craig_J:
+        boat: STFS
+        time: '33:39'
+      Ian_O:
+        boat: US-1
+        time: '27:12'
+      Matt_L:
+        boat: F5
+        time: '27:26'
+      Melissa_W:
+        boat: SF
+        time: FIP_5
+    wind: 2-3
+  2:
+    RC:
+    - Heather_B
+    - Ryan_C
+    date: '2024_08_18'
+    notes: M1 - Shortened from M2
+    skip:
+      Bill_P:
+        boat: SF
+        time: '21:19'
+      Craig_J:
+        boat: STFS
+        time: '25:37'
+      Ian_O:
+        boat: US-1
+        time: '24:28'
+      Matt_L:
+        boat: F5
+        time: '22:03'
+    wind: 2-3
+  3:
+    RC:
+    - Matt_L
+    - David_Bu
+    date: '2024_08_26'
+    notes: M3
+    skip:
+      Craig_J:
+        boat: STFS
+        time: '45:58'
+      Ian_O:
+        boat: US-1
+        time: '35:52'
+      Jim_M:
+        boat: SF
+        time: '44:40'
+      Marja_J:
+        boat: SF
+        time: FIP_6
+      Matt_T:
+        boat: SF
+        time: '40:09'
+      Ryan_C:
+        boat: SF
+        time: '46:06'
+    wind: 2-3
+  4:
+    RC:
+    - Matt_L
+    - David_Bu
+    date: '2024_08_26'
+    notes: M2
+    skip:
+      Craig_J:
+        boat: STFS
+        time: '35:38'
+      Ian_O:
+        boat: US-1
+        time: '26:48'
+      Jim_M:
+        boat: SF
+        time: '32:08'
+      Matt_T:
+        boat: SF
+        time: '32:49'
+      Ryan_C:
+        boat: SF
+        time: '30:57'
+    wind: '4'
+  5:
+    RC:
+    - Marja_J
+    - Jim_M
+    date: '2024_09_08'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '41:08'
+      David_Bu:
+        boat: SF
+        time: '35:03'
+      Heather_B:
+        boat: SF
+        time: '40:29'
+      Ian_O:
+        boat: US-1
+        time: '34:35'
+      Jim_H:
+        boat: LASE
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '40:26'
+      Matthew_J:
+        boat: SF
+        time: '41:36'
+      Ryan_C:
+        boat: SF
+        time: '40:02'
+    wind: 2-3
+  6:
+    RC:
+    - Marja_J
+    - Jim_M
+    date: '2024_09_08'
+    notes: M2
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '48:57'
+      David_Bu:
+        boat: SF
+        time: '47:58'
+      Heather_B:
+        boat: SF
+        time: '47:33'
+      Ian_O:
+        boat: US-1
+        time: '47:34'
+      Jim_H:
+        boat: LASE
+        time: DNF
+      Matt_L:
+        boat: F5
+        time: '49:53'
+      Matthew_J:
+        boat: SF
+        time: '50:46'
+      Ryan_C:
+        boat: SF
+        time: '48:36'
+    wind: 0-1
+  7:
+    RC:
+    - Matt_T
+    - Ian_O
+    date: '2024_09_15'
+    notes: M3 180
+    skip:
+      David_Bu:
+        boat: SF
+        time: '42:26'
+      Jim_M:
+        boat: SF
+        time: '46:52'
+      Marja_J:
+        boat: SF
+        time: '56:04'
+      Matthew_J:
+        boat: SF
+        time: '50:11'
+      Ryan_C:
+        boat: SF
+        time: '48:43'
+    wind: 2-3
+  8:
+    RC:
+    - Matt_T
+    - Ian_O
+    date: '2024_09_15'
+    notes: M2 180
+    skip:
+      David_Bu:
+        boat: SF
+        time: '26:21'
+      Jim_M:
+        boat: SF
+        time: '31:30'
+      Marja_J:
+        boat: SF
+        time: '33:35'
+      Matthew_J:
+        boat: SF
+        time: '34:14'
+      Ryan_C:
+        boat: SF
+        time: '29:31'
+    wind: 2-3
+  9:
+    RC:
+    - Barry_O
+    date: '2024_09_22'
+    notes: Cancelled due to lack of racers
+    skip: {}
+    wind: 0-1
+  10:
+    RC:
+    - Barry_O
+    date: '2024_09_22'
+    notes: Cancelled due to lack of racers
+    skip: {}
+    wind: 0-1
+  11:
+    RC:
+    - Heather_B
+    - Craig_J
+    date: '2024_09_29'
+    notes: I2
+    skip:
+      David_Bu:
+        boat: SF
+        time: '25:50'
+      John_M:
+        boat: SF
+        time: '27:47'
+      Matt_L:
+        boat: F5
+        time: '27:59'
+      Rod_H:
+        boat: LASEM
+        time: '26:38'
+      Ryan_C:
+        boat: SF
+        time: '26:40'
+    wind: 0-1
+  12:
+    RC:
+    - Heather_B
+    - Craig_J
+    date: '2024_09_29'
+    notes: I2
+    skip:
+      David_Bu:
+        boat: SF
+        time: '21:23'
+      John_M:
+        boat: SF
+        time: '27:58'
+      Matt_L:
+        boat: F5
+        time: FIP_5
+      Rod_H:
+        boat: LASEM
+        time: '20:52'
+      Ryan_C:
+        boat: SF
+        time: '23:10'
+    wind: 0-1

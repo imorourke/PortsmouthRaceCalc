@@ -1,0 +1,49 @@
+boat:
+  BCN:
+    full_name: Buccaneer 18' spi (SWN18)
+    hc_of_wind:
+      0-1: 89.2
+      2-3: 87.0
+      '4': 86.3
+      5-9: 85.4
+      D-PN: 86.9
+  F5:
+    full_name: Force 5
+    hc_of_wind:
+      0-1: 98.1
+      2-3: 96.6
+      '4': 95.3
+      5-9: 93.4
+      D-PN: 95.4
+  HLR14:
+    full_name: Holder 14 (H1-14)
+    hc_of_wind:
+      0-1: 113.3
+      2-3: 111.7
+      '4': 108.4
+      5-9: 111.0
+      D-PN: 111.0
+  LASEM:
+    full_name: Laser Radial/Laser M
+    hc_of_wind:
+      0-1: 99.4
+      2-3: 97.3
+      '4': 93.6
+      5-9: 96.7
+      D-PN: 96.7
+  SF:
+    full_name: Sunfish (Int.)
+    hc_of_wind:
+      0-1: 103.0
+      2-3: 100.4
+      '4': 97.8
+      5-9: 95.8
+      D-PN: 99.6
+  US-1:
+    full_name: US-1
+    hc_of_wind:
+      0-1: 90.6
+      2-3: 91.3
+      '4': 92.3
+      5-9: 91.9
+      D-PN: 91.5

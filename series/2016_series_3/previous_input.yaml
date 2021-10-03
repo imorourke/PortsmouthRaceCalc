@@ -1,0 +1,379 @@
+race:
+  1:
+    RC:
+    - Pat_B
+    - John_T
+    date: '2016_08_14'
+    notes: I2 90
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '26:04'
+      Bill_P:
+        boat: SF
+        time: '29:18'
+      Chris_E:
+        boat: SF
+        time: '30:35'
+      David_Bu:
+        boat: SF
+        time: '30:30'
+      Jay_H:
+        boat: SWSX
+        time: '32:12'
+      Lewis_V:
+        boat: BCN
+        time: '29:47'
+      Mike_F:
+        boat: SF
+        time: '28:21'
+      Mike_S:
+        boat: FSCT
+        time: '36:16'
+      Nedra_F:
+        boat: SF
+        time: '36:10'
+      Rod_H:
+        boat: LASEM
+        time: '28:18'
+      Ron_F:
+        boat: F5
+        time: '27:11'
+      Stacy_O:
+        boat: SWSX
+        time: '43:00'
+    wind: 2-3
+  2:
+    RC:
+    - Pat_B
+    - John_T
+    date: '2016_08_14'
+    notes: F1 90
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '30:53'
+      Bill_P:
+        boat: SF
+        time: '32:36'
+      David_Bu:
+        boat: SF
+        time: '29:24'
+      Jay_H:
+        boat: SWSX
+        time: '35:27'
+      Lewis_V:
+        boat: BCN
+        time: '34:20'
+      Mike_F:
+        boat: SF
+        time: '31:44'
+      Mike_S:
+        boat: FSCT
+        time: '36:29'
+      Nedra_F:
+        boat: SF
+        time: '37:37'
+      Rod_H:
+        boat: LASEM
+        time: '31:47'
+      Ron_F:
+        boat: F5
+        time: '31:31'
+      Stacy_O:
+        boat: SWSX
+        time: '42:22'
+    wind: 2-3
+  3:
+    RC:
+    - Paul_B
+    - Nick_H
+    date: '2016_08_21'
+    notes: M2 270
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '51:44'
+      Bill_P:
+        boat: SF
+        time: '50:56'
+      David_Bu:
+        boat: SF
+        time: '53:11'
+      Jay_H:
+        boat: SWSX
+        time: '54:08'
+      John_T:
+        boat: US-1
+        time: '36:45'
+      Mike_F:
+        boat: SF
+        time: '50:47'
+      Nedra_F:
+        boat: SF
+        time: '53:50'
+      Rod_H:
+        boat: LASEM
+        time: '53:30'
+      Steve_R:
+        boat: HTR216
+        time: '53:36'
+    wind: 2-3
+  4:
+    RC:
+    - Paul_B
+    - Nick_H
+    date: '2016_08_21'
+    notes: I2 270
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '30:15'
+      Bill_P:
+        boat: SF
+        time: '25:39'
+      David_Bu:
+        boat: SF
+        time: '26:20'
+      Jay_H:
+        boat: SWSX
+        time: '31:03'
+      John_T:
+        boat: US-1
+        time: '24:22'
+      Mike_F:
+        boat: SF
+        time: '25:53'
+      Nedra_F:
+        boat: SF
+        time: '28:10'
+      Rod_H:
+        boat: LASEM
+        time: '30:39'
+      Steve_R:
+        boat: HTR216
+        time: '31:25'
+    wind: 2-3
+  5:
+    RC:
+    - Bill_P
+    - Jay_H
+    date: '2016_08_21'
+    notes: M2 190
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '35:58'
+      Gail_B:
+        boat: SWSX
+        time: '47:30'
+      John_T:
+        boat: US-1
+        time: '30:07'
+      Lewis_V:
+        boat: BCN
+        time: '31:04'
+      Pat_B:
+        boat: WF
+        time: '42:21'
+      Ralph_H:
+        boat: SF
+        time: '38:46'
+      Rod_H:
+        boat: LASEM
+        time: '36:57'
+      Ron_F:
+        boat: F5
+        time: '30:53'
+    wind: 2-3
+  6:
+    RC:
+    - Bill_P
+    - Jay_H
+    date: '2016_08_21'
+    notes: M2 190
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '30:21'
+      Gail_B:
+        boat: SWSX
+        time: '41:43'
+      John_T:
+        boat: US-1
+        time: '29:00'
+      Lewis_V:
+        boat: BCN
+        time: '30:01'
+      Pat_B:
+        boat: WF
+        time: '30:40'
+      Ralph_H:
+        boat: SF
+        time: '36:44'
+      Rod_H:
+        boat: LASEM
+        time: '31:15'
+      Ron_F:
+        boat: F5
+        time: '30:29'
+    wind: 2-3
+  7:
+    RC:
+    - David_Bu
+    - Mike_S
+    date: '2016_09_11'
+    notes: G2 180
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '40:42'
+      Barry_O:
+        boat: HLR14
+        time: '43:29'
+      Bill_P:
+        boat: SF
+        time: '32:45'
+      Chris_E:
+        boat: SF
+        time: '36:29'
+      Lewis_V:
+        boat: BCN
+        time: '31:03'
+      Mike_F:
+        boat: SF
+        time: '34:42'
+      Nedra_F:
+        boat: SF
+        time: '42:44'
+      Pat_B:
+        boat: WF
+        time: '36:59'
+      Ralph_H:
+        boat: SF
+        time: '42:27'
+      Rod_H:
+        boat: LASEM
+        time: '38:18'
+      Ron_F:
+        boat: F5
+        time: '30:05'
+    wind: 2-3
+  8:
+    RC:
+    - David_Bu
+    - Mike_S
+    date: '2016_09_11'
+    notes: G2 180  Port Rounding, ART !!!
+    skip:
+      Art_M:
+        boat: SWSX
+        time: '36:18'
+      Barry_O:
+        boat: HLR14
+        time: '39:39'
+      Bill_P:
+        boat: SF
+        time: '35:10'
+      Chris_E:
+        boat: SF
+        time: '33:44'
+      Lewis_V:
+        boat: BCN
+        time: '31:26'
+      Mike_F:
+        boat: SF
+        time: '33:26'
+      Mike_K:
+        boat: SWSX
+        time: '40:00'
+      Nedra_F:
+        boat: SF
+        time: '34:36'
+      Pat_B:
+        boat: WF
+        time: '34:29'
+      Ralph_H:
+        boat: SF
+        time: '36:39'
+      Rod_H:
+        boat: LASEM
+        time: '33:12'
+      Ron_F:
+        boat: F5
+        time: '30:27'
+    wind: 2-3
+  9:
+    RC:
+    - Ron_F
+    date: '2016_09_18'
+    notes: M
+    skip:
+      Anita_M:
+        boat: HLR14
+        time: '50:30'
+      Art_M:
+        boat: SWSX
+        time: '35:19'
+      Bill_P:
+        boat: SF
+        time: '39:16'
+      Chris_E:
+        boat: SF
+        time: '38:02'
+      David_Bu:
+        boat: SF
+        time: '40:17'
+      Lewis_V:
+        boat: BCN
+        time: '34:27'
+      Mike_F:
+        boat: SF
+        time: '41:21'
+      Nedra_F:
+        boat: SF
+        time: '40:20'
+      Pat_B:
+        boat: WF
+        time: '49:42'
+      Ralph_H:
+        boat: SF
+        time: '50:02'
+    wind: 2-3
+  10:
+    RC:
+    - Ron_F
+    date: '2016_09_18'
+    notes: M
+    skip:
+      Anita_M:
+        boat: HLR14
+        time: '42:24'
+      Art_M:
+        boat: SWSX
+        time: '35:49'
+      Bill_P:
+        boat: SF
+        time: '35:54'
+      Chris_E:
+        boat: SF
+        time: '38:32'
+      David_Bu:
+        boat: SF
+        time: '37:37'
+      Lewis_V:
+        boat: BCN
+        time: '30:45'
+      Mike_F:
+        boat: SF
+        time: '32:04'
+      Nedra_F:
+        boat: SF
+        time: '41:32'
+      Pat_B:
+        boat: WF
+        time: '33:03'
+      Ralph_H:
+        boat: SF
+        time: '37:51'
+    wind: 2-3

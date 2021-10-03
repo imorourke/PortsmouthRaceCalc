@@ -1,0 +1,645 @@
+race:
+  1:
+    RC:
+    - Mike_F
+    - Nedra_F
+    date: '2021_04_25'
+    notes: Cancelled due to wind
+    skip: {}
+    wind: 0-1
+  2:
+    RC:
+    - Mike_F
+    - Nedra_F
+    date: '2021_04_25'
+    notes: Cancelled due to wind
+    skip: {}
+    wind: 0-1
+  3:
+    RC:
+    - Nick_H
+    - Ian_O
+    date: '2021_05_02'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:43'
+      Jim_S:
+        boat: SF
+        time: '26:15'
+      Matt_L:
+        boat: DLPSR
+        time: '23:39'
+      Mike_F:
+        boat: SF
+        time: '21:16'
+      Nedra_F:
+        boat: SF
+        time: '21:32'
+      Rod_H:
+        boat: LASEM
+        time: '21:26'
+    wind: 2-3
+  4:
+    RC:
+    - Nick_H
+    - Ian_O
+    date: '2021_05_02'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:34'
+      Jim_S:
+        boat: SF
+        time: '30:20'
+      Matt_L:
+        boat: DLPSR
+        time: '26:33'
+      Mike_F:
+        boat: SF
+        time: '22:09'
+      Nedra_F:
+        boat: SF
+        time: '24:57'
+      Rod_H:
+        boat: LASEM
+        time: '22:53'
+    wind: 2-3
+  5:
+    RC:
+    - Rod_H
+    - Matt_L
+    date: '2021_05_09'
+    notes: No race due to thunderstorms
+    skip: {}
+    wind: 0-1
+  6:
+    RC:
+    - Rod_H
+    - Matt_L
+    date: '2021_05_09'
+    notes: No race due to thunderstorms
+    skip: {}
+    wind: 0-1
+  7:
+    RC:
+    - Bill_P
+    - David_Bu
+    date: '2021_05_23'
+    notes: M2 Starboard Rounding
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '40:05'
+      Ian_O:
+        boat: SF
+        time: '37:04'
+      Matt_L:
+        boat: DLPSR
+        time: '47:12'
+      Mike_F:
+        boat: SF
+        time: '36:15'
+      Nedra_F:
+        boat: SF
+        time: '36:50'
+      Rod_H:
+        boat: LASEM
+        time: '36:22'
+    wind: 2-3
+  8:
+    RC:
+    - Bill_P
+    - David_Bu
+    date: '2021_05_23'
+    notes: M2 Starboard Rounding
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '34:31'
+      Ian_O:
+        boat: SF
+        time: '34:45'
+      Matt_L:
+        boat: DLPSR
+        time: '39:07'
+      Mike_F:
+        boat: SF
+        time: '32:27'
+      Nedra_F:
+        boat: SF
+        time: '32:30'
+      Rod_H:
+        boat: LASEM
+        time: '32:50'
+    wind: 2-3
+  9:
+    RC:
+    - Barry_O
+    - Jim_S
+    date: '2021_06_06'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '28:32'
+      Chris_E:
+        boat: SF
+        time: '30:07'
+      David_Bu:
+        boat: SF
+        time: '28:35'
+      Ian_O:
+        boat: SF
+        time: '27:47'
+      Lewis_V:
+        boat: BCN
+        time: '23:31'
+      Matt_L:
+        boat: DLPSR
+        time: '30:29'
+      Mike_F:
+        boat: SF
+        time: '25:57'
+      Nedra_F:
+        boat: SF
+        time: '27:38'
+      Rod_H:
+        boat: LASEM
+        time: '26:51'
+    wind: 2-3
+  10:
+    RC:
+    - Barry_O
+    - Jim_S
+    date: '2021_06_06'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '26:59'
+      Chris_E:
+        boat: SF
+        time: '27:15'
+      David_Bu:
+        boat: SF
+        time: '26:02'
+      Ian_O:
+        boat: SF
+        time: '26:49'
+      Lewis_V:
+        boat: BCN
+        time: '23:54'
+      Matt_L:
+        boat: DLPSR
+        time: '28:54'
+      Mike_F:
+        boat: SF
+        time: '23:55'
+      Nedra_F:
+        boat: SF
+        time: '24:06'
+      Rod_H:
+        boat: LASEM
+        time: '24:13'
+    wind: 2-3
+  11:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2021_06_13'
+    notes: M2 Port Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '34:31'
+      David_Bu:
+        boat: SF
+        time: '36:28'
+      Ian_O:
+        boat: SF
+        time: '34:25'
+      Mike_F:
+        boat: SF
+        time: '33:53'
+      Nedra_F:
+        boat: SF
+        time: '36:00'
+      Rod_H:
+        boat: LASEM
+        time: '32:41'
+      Shawn_W:
+        boat: BUT
+        time: FIP_7
+    wind: 2-3
+  12:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2021_06_13'
+    notes: M2 Port Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '34:57'
+      David_Bu:
+        boat: SF
+        time: '34:11'
+      Ian_O:
+        boat: SF
+        time: '33:59'
+      Mike_F:
+        boat: SF
+        time: '31:55'
+      Nedra_F:
+        boat: SF
+        time: '33:20'
+      Rod_H:
+        boat: LASEM
+        time: '31:01'
+    wind: 2-3
+  13:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2021_06_20'
+    notes: M3 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '27:48'
+      Chris_E:
+        boat: SF
+        time: '30:45'
+      David_Bu:
+        boat: SF
+        time: '32:33'
+      Lewis_V:
+        boat: BCN
+        time: '26:27'
+      Matt_L:
+        boat: DLPSR
+        time: '32:01'
+      Mike_F:
+        boat: SF
+        time: '26:35'
+      Nedra_F:
+        boat: SF
+        time: '29:52'
+      Shawn_W:
+        boat: BUT
+        time: DNF
+    wind: 2-3
+  14:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2021_06_20'
+    notes: M4 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '42:15'
+      Chris_E:
+        boat: SF
+        time: '43:47'
+      David_Bu:
+        boat: SF
+        time: '42:08'
+      Lewis_V:
+        boat: BCN
+        time: '40:20'
+      Matt_L:
+        boat: DLPSR
+        time: '45:22'
+      Mike_F:
+        boat: SF
+        time: '40:10'
+      Nedra_F:
+        boat: SF
+        time: '42:52'
+    wind: 2-3
+  15:
+    RC:
+    - Mike_F
+    - Nedra_F
+    date: '2021_04_25'
+    notes: Cancelled due to wind
+    skip: {}
+    wind: 0-1
+  16:
+    RC:
+    - Mike_F
+    - Nedra_F
+    date: '2021_04_25'
+    notes: Cancelled due to wind
+    skip: {}
+    wind: 0-1
+  17:
+    RC:
+    - Nick_H
+    - Ian_O
+    date: '2021_05_02'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:43'
+      Jim_S:
+        boat: SF
+        time: '26:15'
+      Matt_L:
+        boat: DLPSR
+        time: '23:39'
+      Mike_F:
+        boat: SF
+        time: '21:16'
+      Nedra_F:
+        boat: SF
+        time: '21:32'
+      Rod_H:
+        boat: LASEM
+        time: '21:26'
+    wind: 2-3
+  18:
+    RC:
+    - Nick_H
+    - Ian_O
+    date: '2021_05_02'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '22:34'
+      Jim_S:
+        boat: SF
+        time: '30:20'
+      Matt_L:
+        boat: DLPSR
+        time: '26:33'
+      Mike_F:
+        boat: SF
+        time: '22:09'
+      Nedra_F:
+        boat: SF
+        time: '24:57'
+      Rod_H:
+        boat: LASEM
+        time: '22:53'
+    wind: 2-3
+  19:
+    RC:
+    - Rod_H
+    - Matt_L
+    date: '2021_05_09'
+    notes: No race due to thunderstorms
+    skip: {}
+    wind: 0-1
+  20:
+    RC:
+    - Rod_H
+    - Matt_L
+    date: '2021_05_09'
+    notes: No race due to thunderstorms
+    skip: {}
+    wind: 0-1
+  21:
+    RC:
+    - Bill_P
+    - David_Bu
+    date: '2021_05_23'
+    notes: M2 Starboard Rounding
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '40:05'
+      Ian_O:
+        boat: SF
+        time: '37:04'
+      Matt_L:
+        boat: DLPSR
+        time: '47:12'
+      Mike_F:
+        boat: SF
+        time: '36:15'
+      Nedra_F:
+        boat: SF
+        time: '36:50'
+      Rod_H:
+        boat: LASEM
+        time: '36:22'
+    wind: 2-3
+  22:
+    RC:
+    - Bill_P
+    - David_Bu
+    date: '2021_05_23'
+    notes: M2 Starboard Rounding
+    skip:
+      Barry_O:
+        boat: HLR14
+        time: '34:31'
+      Ian_O:
+        boat: SF
+        time: '34:45'
+      Matt_L:
+        boat: DLPSR
+        time: '39:07'
+      Mike_F:
+        boat: SF
+        time: '32:27'
+      Nedra_F:
+        boat: SF
+        time: '32:30'
+      Rod_H:
+        boat: LASEM
+        time: '32:50'
+    wind: 2-3
+  23:
+    RC:
+    - Barry_O
+    - Jim_S
+    date: '2021_06_06'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '28:32'
+      Chris_E:
+        boat: SF
+        time: '30:07'
+      David_Bu:
+        boat: SF
+        time: '28:35'
+      Ian_O:
+        boat: SF
+        time: '27:47'
+      Lewis_V:
+        boat: BCN
+        time: '23:31'
+      Matt_L:
+        boat: DLPSR
+        time: '30:29'
+      Mike_F:
+        boat: SF
+        time: '25:57'
+      Nedra_F:
+        boat: SF
+        time: '27:38'
+      Rod_H:
+        boat: LASEM
+        time: '26:51'
+    wind: 2-3
+  24:
+    RC:
+    - Barry_O
+    - Jim_S
+    date: '2021_06_06'
+    notes: M2 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '26:59'
+      Chris_E:
+        boat: SF
+        time: '27:15'
+      David_Bu:
+        boat: SF
+        time: '26:02'
+      Ian_O:
+        boat: SF
+        time: '26:49'
+      Lewis_V:
+        boat: BCN
+        time: '23:54'
+      Matt_L:
+        boat: DLPSR
+        time: '28:54'
+      Mike_F:
+        boat: SF
+        time: '23:55'
+      Nedra_F:
+        boat: SF
+        time: '24:06'
+      Rod_H:
+        boat: LASEM
+        time: '24:13'
+    wind: 2-3
+  25:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2021_06_13'
+    notes: M2 Port Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '34:31'
+      David_Bu:
+        boat: SF
+        time: '36:28'
+      Ian_O:
+        boat: SF
+        time: '34:25'
+      Mike_F:
+        boat: SF
+        time: '33:53'
+      Nedra_F:
+        boat: SF
+        time: '36:00'
+      Rod_H:
+        boat: LASEM
+        time: '32:41'
+      Shawn_W:
+        boat: BUT
+        time: FIP_7
+    wind: 2-3
+  26:
+    RC:
+    - Nick_H
+    - Lewis_V
+    date: '2021_06_13'
+    notes: M2 Port Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '34:57'
+      David_Bu:
+        boat: SF
+        time: '34:11'
+      Ian_O:
+        boat: SF
+        time: '33:59'
+      Mike_F:
+        boat: SF
+        time: '31:55'
+      Nedra_F:
+        boat: SF
+        time: '33:20'
+      Rod_H:
+        boat: LASEM
+        time: '31:01'
+    wind: 2-3
+  27:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2021_06_20'
+    notes: M3 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '27:48'
+      Chris_E:
+        boat: SF
+        time: '30:45'
+      David_Bu:
+        boat: SF
+        time: '32:33'
+      Lewis_V:
+        boat: BCN
+        time: '26:27'
+      Matt_L:
+        boat: DLPSR
+        time: '32:01'
+      Mike_F:
+        boat: SF
+        time: '26:35'
+      Nedra_F:
+        boat: SF
+        time: '29:52'
+      Shawn_W:
+        boat: BUT
+        time: DNF
+    wind: 2-3
+  28:
+    RC:
+    - Rod_H
+    - Ian_O
+    date: '2021_06_20'
+    notes: M4 Starboard Rounding
+    skip:
+      Bill_P:
+        boat: SF
+        time: '42:15'
+      Chris_E:
+        boat: SF
+        time: '43:47'
+      David_Bu:
+        boat: SF
+        time: '42:08'
+      Lewis_V:
+        boat: BCN
+        time: '40:20'
+      Matt_L:
+        boat: DLPSR
+        time: '45:22'
+      Mike_F:
+        boat: SF
+        time: '40:10'
+      Nedra_F:
+        boat: SF
+        time: '42:52'
+    wind: 2-3
