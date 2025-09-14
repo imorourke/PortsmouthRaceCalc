@@ -252,3 +252,79 @@ race:
         boat: SF
         time: '33:21'
     wind: 2-3
+  9:
+    RC:
+    - Nick_H
+    - Ian_O
+    date: '2025_09_14'
+    notes: M3
+    skip:
+      Adam_E:
+        boat: SF
+        time: FIP_10
+      Bill_P:
+        boat: SF
+        time: '28:15'
+      Elliott_F:
+        boat: SF
+        time: FIP_9
+      Heather_B:
+        boat: SF
+        time: '36:51'
+      Jay_A:
+        boat: SF
+        time: FIP_8
+      Jim_M:
+        boat: SF
+        time: '37:32'
+      Larry_G:
+        boat: SF
+        time: '37:36'
+      Matt_L:
+        boat: F5
+        time: '26:30'
+      Rod_H:
+        boat: LASEM
+        time: '25:59'
+      Ryan_C:
+        boat: SF
+        time: '31:37'
+    wind: 2-3
+  10:
+    RC:
+    - Nick_H
+    - Ian_O
+    date: '2025_09_14'
+    notes: M3
+    skip:
+      Adam_E:
+        boat: SF
+        time: '44:11'
+      Bill_P:
+        boat: SF
+        time: '32:15'
+      Elliott_F:
+        boat: SF
+        time: '33:40'
+      Heather_B:
+        boat: SF
+        time: '33:55'
+      Jay_A:
+        boat: SF
+        time: '42:18'
+      Jim_M:
+        boat: SF
+        time: '38:19'
+      Larry_G:
+        boat: SF
+        time: FIP_10
+      Matt_L:
+        boat: F5
+        time: '32:37'
+      Rod_H:
+        boat: LASEM
+        time: '31:04'
+      Ryan_C:
+        boat: SF
+        time: '37:16'
+    wind: 2-3
