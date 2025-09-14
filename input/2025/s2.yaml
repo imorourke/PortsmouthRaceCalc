@@ -29,6 +29,7 @@ boats:
   Elliott_F: SF
   Jay_H: SWSX
   Chris_P: SF
+  Jay_A: SF
 races:
   - date: "2025_08_03"
     rc:
@@ -150,3 +151,36 @@ races:
           Ian_O: 24:21
           Matt_L: 29:55
           Jay_H: 30:07
+  - date: "2025_09_14"
+    rc:
+      - Nick_H
+      - Ian_O
+    races:
+      - notes: M3
+        wind_bf: 2
+        offset_time: 6:00
+        times:
+          Bill_P: 34:15
+          Heather_B: 42:51
+          Matt_L: 32:30
+          Rod_H: 31:59
+          Elliott_F: FIP9
+          Adam_E: FIP10
+          Larry_G: 43:36
+          Jay_A: FIP8
+          Ryan_C: 37:37
+          Jim_M: 43:32
+      - notes: M3
+        wind_bf: 2
+        offset_time: 6:00
+        times:
+          Bill_P: 38:15
+          Heather_B: 39:55
+          Matt_L: 38:37
+          Rod_H: 37:04
+          Elliott_F: 39:40
+          Adam_E: 50:11
+          Larry_G: FIP10
+          Jay_A: 48:18
+          Ryan_C: 43:16
+          Jim_M: 44:19
