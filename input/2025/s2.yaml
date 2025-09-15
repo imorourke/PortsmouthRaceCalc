@@ -29,7 +29,7 @@ boats:
   Elliott_F: SF
   Jay_H: SWSX
   Chris_P: SF
-  Jay_A: SF
+  Jay_E: SF
 races:
   - date: "2025_08_03"
     rc:
@@ -167,7 +167,7 @@ races:
           Elliott_F: FIP9
           Adam_E: FIP10
           Larry_G: 43:36
-          Jay_A: FIP8
+          Jay_E: FIP8
           Ryan_C: 37:37
           Jim_M: 43:32
       - notes: M3
@@ -181,6 +181,6 @@ races:
           Elliott_F: 39:40
           Adam_E: 50:11
           Larry_G: FIP10
-          Jay_A: 48:18
+          Jay_E: 48:18
           Ryan_C: 43:16
           Jim_M: 44:19
