@@ -328,3 +328,51 @@ race:
         boat: SF
         time: '37:16'
     wind: 2-3
+  11:
+    RC:
+    - Heather_B
+    - Ryan_C
+    - Nick_H
+    date: '2025_09_21'
+    notes: M2 220
+    skip:
+      Adam_E:
+        boat: SF
+        time: '40:20'
+      Elliott_F:
+        boat: SF
+        time: '38:04'
+      Ian_O:
+        boat: US-1
+        time: '27:08'
+      John_F:
+        boat: SF
+        time: '41:15'
+      Michael_S:
+        boat: SF
+        time: '33:27'
+    wind: 2-3
+  12:
+    RC:
+    - Heather_B
+    - Ryan_C
+    - Nick_H
+    date: '2025_09_21'
+    notes: M2 220 (Shortened to M1)
+    skip:
+      Adam_E:
+        boat: SF
+        time: DNF
+      Elliott_F:
+        boat: SF
+        time: '54:00'
+      Ian_O:
+        boat: US-1
+        time: '29:58'
+      Michael_S:
+        boat: SF
+        time: FIP_4
+      Rod_H:
+        boat: SF
+        time: '34:23'
+    wind: 0-1
