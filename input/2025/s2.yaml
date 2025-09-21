@@ -30,6 +30,8 @@ boats:
   Jay_H: SWSX
   Chris_P: SF
   Jay_E: SF
+  John_F: SF
+  Michael_S: SF
 races:
   - date: "2025_08_03"
     rc:
@@ -184,3 +186,29 @@ races:
           Jay_E: 48:18
           Ryan_C: 43:16
           Jim_M: 44:19
+  - date: "2025_09_21"
+    rc:
+      - Heather_B
+      - Ryan_C
+      - Nick_H
+    races:
+      - notes: M2 220
+        wind_bf: 2
+        offset_time: 6:00
+        times:
+          Ian_O: 33:08
+          Adam_E: 46:20
+          Elliott_F: 44:04
+          John_F: 47:15
+          Michael_S: 39:27
+      - notes: M2 220 (Shortened to M1)
+        wind_bf: 0
+        offset_time: 6:00
+        boat_overrides:
+          Rod_H: SF
+        times:
+          Ian_O: 35:58
+          Rod_H: 40:23
+          Adam_E: DNF
+          Elliott_F: 1:00:00
+          Michael_S: FIP4
