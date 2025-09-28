@@ -212,3 +212,11 @@ races:
           Adam_E: DNF
           Elliott_F: 1:00:00
           Michael_S: FIP4
+  - date: "2025_09_28"
+    rc:
+      - Adam_E
+    races:
+      - notes: No races due to lack of participation
+        wind_bf: 0
+      - notes: No races due to lack of participation
+        wind_bf: 0
