@@ -212,3 +212,41 @@ races:
           Adam_E: DNF
           Elliott_F: 1:00:00
           Michael_S: FIP4
+  - date: "2025_09_28"
+    rc:
+      - Adam_E
+    races:
+      - notes: No races due to lack of participation
+        wind_bf: 0
+      - notes: No races due to lack of participation
+        wind_bf: 0
+  - date: "2025_10_05"
+    rc:
+      - Chris_E
+      - Nick_H
+    races:
+      - notes: M2 270
+        wind_bf: 4
+        boat_overrides:
+          Craig_J: PUF
+        times:
+          Jay_E: 35:21
+          Elliott_F: 27:53
+          Adam_E: 30:05
+          Heather_B: 22:31
+          Ian_O: 20:18
+          Craig_J: 42:34
+          Ryan_C: 29:22
+          Matt_L: 20:32
+          Rod_H: 18:31
+      - notes: M2 270
+        wind_bf: 4
+        times:
+          Jay_E: 36:26
+          Elliott_F: 24:48
+          Adam_E: 43:22
+          Heather_B: 23:18
+          Ian_O: 18:12
+          Ryan_C: 23:04
+          Matt_L: 18:28
+          Rod_H: 17:58
