@@ -376,3 +376,17 @@ race:
         boat: SF
         time: '34:23'
     wind: 0-1
+  13:
+    RC:
+    - Adam_E
+    date: '2025_09_28'
+    notes: No races due to lack of participation
+    skip: {}
+    wind: 0-1
+  14:
+    RC:
+    - Adam_E
+    date: '2025_09_28'
+    notes: No races due to lack of participation
+    skip: {}
+    wind: 0-1
