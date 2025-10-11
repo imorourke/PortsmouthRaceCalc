@@ -32,7 +32,12 @@ class StaticApplication:
     # Check for a file extension
     __EXT_CHECK = re.compile(r"\.\w+$")
 
-    def __init__(self, name: str = "", base_path: Path = Path(".")):
+    def __init__(
+        self,
+        name: str = "",
+        base_path: Path | None = None,
+        build_path: Path | None = None,
+    ):
         """
         Initializes the static application with the provided values
         :param name: the name of the application
@@ -40,23 +45,24 @@ class StaticApplication:
         """
         # Store input parameters
         self.name = name
+        if base_path is None:
+            base_path = Path(__file__).parent
 
         # Define maps to link path values to variable names and rendering functions
-        self.path_name_map: Dict[str, Callable[[Any], Optional[Union[str, bytes]]]] = (
-            dict()
-        )
-        self.path_function_map: Dict[str, str] = dict()
+        self.path_name_map: dict[str, Callable[[Any], None | str | bytes]] = dict()
+        self.path_function_map: dict[str, str] = dict()
 
         # Define path parameters
-        self.base_path = base_path.absolute()
-        self.build_path = base_path / "build"
-        self.static_path = base_path / "static"
+        self.base_path: Path = base_path.absolute()
+        self.build_path: Path = (
+            base_path / "build" if build_path is None else build_path
+        )
+        self.static_path: Path = base_path / "static"
 
         # Define the Jinja2 environment
         self.jinja_env = jinja2.Environment(
             loader=jinja2.FileSystemLoader(base_path / "templates")
         )
-        print(self.jinja_env.loader.list_templates())
         self.jinja_env.globals.update(url_for=self.url_for)
         self.jinja_env.globals.update(get_build_time=self.get_build_time)
 
@@ -70,7 +76,7 @@ class StaticApplication:
         # Define a function to help with relative URL parameters
         self._url_for_relative: Optional[Path] = None
 
-    def add_list(self, name: str, values: Union[List, Dict]) -> None:
+    def add_list(self, name: str, values: list | dict) -> None:
         """
         Adds an iterable item to the list
         :param name: the variable name of the item
