@@ -8,6 +8,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+from typing import Any, Callable
 
 from .staticgen import StaticApplication
 from .database import utils
@@ -237,7 +238,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
     # Create functions for each section to check
     def check_finished_race_count(
         series: Series, perl: dict
-    ) -> Optional[Tuple[str, Any, Any]]:
+    ) -> tuple[str, Any, Any] | None:
         # Check the finished race count
         finished_race_count = sum(
             [1 for r in series.races if skip in r.get_skipper_race_points()]
@@ -247,9 +248,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
 
         return None
 
-    def check_series_points(
-        series: Series, perl: dict
-    ) -> Optional[Tuple[str, Any, Any]]:
+    def check_series_points(series: Series, perl: dict) -> tuple[str, Any, Any] | None:
         # Check the series points
         series_points = series.skipper_points_list(skip)
         series_points_perl = perl["low_n_list"]
@@ -292,9 +291,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
 
         return None
 
-    def check_race_results(
-        series: Series, perl: dict
-    ) -> Optional[Tuple[str, Any, Any]]:
+    def check_race_results(series: Series, perl: dict) -> None | tuple[str, Any, Any]:
         for i, r in enumerate(series.races):
             # Format Python result
             pts = r.get_skipper_race_points()
@@ -320,9 +317,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
 
         return None
 
-    def check_rc_race_count(
-        series: Series, perl: dict
-    ) -> Optional[Tuple[str, Any, Any]]:
+    def check_rc_race_count(series: Series, perl: dict) -> tuple[str, Any, Any] | None:
         # Check the RC race count
         rc_count = sum([1 for r in series.races if skip in r.rc_skippers()])
         rc_count_perl = perl["rced_races"]
@@ -330,7 +325,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
         if rc_count != rc_count_perl:
             return "RC Count", rc_count, rc_count_perl
 
-    def check_rc_points(series: Series, perl: dict) -> Optional[Tuple[str, Any, Any]]:
+    def check_rc_points(series: Series, perl: dict) -> tuple[str, Any, Any] | None:
         # Check the RC points for the skipper
         rc_pts = series.get_skipper_rc_points(skip)
         rc_pts_perl = perl["rc_points"]
@@ -344,7 +339,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
 
         return None
 
-    check_functions: List[Callable[[Series, dict], Optional[Tuple[str, Any, Any]]]] = [
+    check_functions: list[Callable[[Series, dict], None | tuple[str, Any, Any]]] = [
         check_finished_race_count,
         check_series_points,
         check_race_results,
@@ -353,7 +348,7 @@ def check_series_with_file(series: Series, perl_output: dict) -> bool:
     ]
 
     # Create a list of error outputs
-    error_outputs: List[str] = list()
+    error_outputs: list[str] = list()
 
     # Iterate over each skipper
     for skip in series.get_all_skippers():
