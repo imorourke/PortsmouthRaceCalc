@@ -1,19 +1,22 @@
-{%- set skipper = database.skippers[skipper_name] -%}
-{%- set skipper_stats = database.skipper_statistics[skipper_name] -%}
+{%- set skipper = database.skippers[skipper_name] -%} {%- set skipper_stats =
+database.skipper_statistics[skipper_name] -%}
 
 <html>
     <head>
-        <title>PRC - Skippers</title>
+        <title>{{ database.name_short }} - Skippers</title>
         {% include 'head_items.html' %}
     </head>
     <body>
         <h1>Skipper - {{ skipper_name }}</h1>
         <a href="{{ url_for('index_page') }}">Home</a>
-        <br>
+        <br />
         <a href="{{ url_for('skipper_page_all') }}">Skippers</a>
 
         <h2>Boats Used</h2>
-        <img src="{{ url_for('skipper_page_boats_used_plot', skipper_name=skipper_name) }}" alt="Statistics">
+        <img
+            src="{{ url_for('skipper_page_boats_used_plot', skipper_name=skipper_name) }}"
+            alt="Statistics"
+        />
 
         <table border="1">
             <tr>
@@ -23,11 +26,13 @@
             {% for boat, num_used in skipper_stats.boats_used.items() %}
             <tr>
                 <td>
-                    <a href="{{ url_for('boat_page', fleet_name=boat.fleet_name, boat_code=boat.code) }}">{{ database.fleets[boat.fleet_name].fancy_name() }} - {{ boat.name }}</a>
+                    <a
+                        href="{{ url_for('boat_page', fleet_name=boat.fleet_name, boat_code=boat.code) }}"
+                        >{{ database.fleets[boat.fleet_name].fancy_name() }} -
+                        {{ boat.name }}</a
+                    >
                 </td>
-                <td>
-                    {{ num_used }}
-                </td>
+                <td>{{ num_used }}</td>
             </tr>
             {% endfor %}
             <td>
@@ -39,21 +44,21 @@
         </table>
 
         <h2>Race Finishes</h2>
-        <img src="{{ url_for('skipper_page_race_results_plot', skipper_name=skipper_name) }}" alt="Race Finishes">
+        <img
+            src="{{ url_for('skipper_page_race_results_plot', skipper_name=skipper_name) }}"
+            alt="Race Finishes"
+        />
 
         <table border="1">
             <tr>
                 <th>Place</th>
                 <th>Number of Finishes</th>
             </tr>
-            {% for finish, num_finishes in skipper_stats.get_race_counts_sorted() %}
+            {% for finish, num_finishes in
+            skipper_stats.get_race_counts_sorted() %}
             <tr>
-                <td>
-                    {{ finish }}
-                </td>
-                <td>
-                    {{ num_finishes }}
-                </td>
+                <td>{{ finish }}</td>
+                <td>{{ num_finishes }}</td>
             </tr>
             {% endfor %}
             <tr>
@@ -67,6 +72,5 @@
         </table>
 
         {% include 'footer.html' %}
-
     </body>
 </html>

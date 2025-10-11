@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>PRC - Skippers</title>
+        <title>{{ database.name_short }} - Skippers</title>
         {% include 'head_items.html' %}
     </head>
     <body>
@@ -15,10 +15,16 @@
                 <th>Boat Races</th>
                 <th>Boat Types Raced</th>
             </tr>
-            {% for val in database.skippers.values() | sort(attribute='identifier') %}
-            {%- set skipper_stats = database.skipper_statistics[val.identifier] -%}
+            {% for val in database.skippers.values() |
+            sort(attribute='identifier') %} {%- set skipper_stats =
+            database.skipper_statistics[val.identifier] -%}
             <tr>
-                <td><a href="{{ url_for('skipper_page_ind', skipper_name=val.identifier) }}">{{ val.identifier }}</a></td>
+                <td>
+                    <a
+                        href="{{ url_for('skipper_page_ind', skipper_name=val.identifier) }}"
+                        >{{ val.identifier }}</a
+                    >
+                </td>
                 <td>{{ skipper_stats.get_total_race_counts() }}</td>
                 <td>{{ skipper_stats.get_total_boat_counts() }}</td>
                 <td>{{ skipper_stats.boats_used | length }}</td>

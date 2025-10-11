@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>PRC - {{ fleet.fancy_name() }}</title>
+        <title>{{ database.name_short }} - {{ fleet.fancy_name() }}</title>
         {% include 'head_items.html' %}
     </head>
     <body>
@@ -31,32 +31,34 @@
 
         <h2>Boats</h2>
 
-        <table border = 1>
+        <table border="1">
             <tr>
                 <th>Code</th>
                 <th>Name</th>
                 <th>Class</th>
-                {% for d in range(fleet.dpn_len()) %}
-                {% if loop.index - 1 == 0 %}
+                {% for d in range(fleet.dpn_len()) %} {% if loop.index - 1 == 0
+                %}
                 <td>DPN</td>
                 {% else %}
                 <td>DPN {{loop.index - 1}}</td>
-                {% endif %}
-                {% endfor %}
+                {% endif %} {% endfor %}
             </tr>
             {% for boat in fleet.boat_types_sorted() %}
             <tr>
-                <td><a href="{{url_for('boat_page', boat_code=boat.code, fleet_name=fleet.name)}}">{{boat.display_code.upper()}}</a></td>
+                <td>
+                    <a
+                        href="{{url_for('boat_page', boat_code=boat.code, fleet_name=fleet.name)}}"
+                        >{{boat.display_code.upper()}}</a
+                    >
+                </td>
                 <td>{{boat.name}}</td>
                 <td>{{boat.boat_class.capitalize()}}</td>
 
-                {% for d in boat.dpn_values %}
-                {% if d %}
+                {% for d in boat.dpn_values %} {% if d %}
                 <td>{{ d }}</td>
                 {% else %}
                 <td></td>
-                {% endif %}
-                {% endfor %}
+                {% endif %} {% endfor %}
             </tr>
             {% endfor %}
         </table>
@@ -64,13 +66,9 @@
         <h2>Fleet Information</h2>
 
         <h3>DPN Notes:</h3>
-        {% include 'dpn_notes.html' %}
-
-        {% if fleet.source %}
+        {% include 'dpn_notes.html' %} {% if fleet.source %}
         <h3>Fleet Data Source</h3>
         <a href="{{ fleet.source }}">Source</a>
-        {% endif %}
-
-        {% include 'footer.html' %}
+        {% endif %} {% include 'footer.html' %}
     </body>
 </html>

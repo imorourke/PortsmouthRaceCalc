@@ -1,5 +1,12 @@
+{% if database.disclaimer or database.code_location %}
+
 <p>
     <p><b>Application Notes:</b></p>
-    <p>All race results are unofficial. Official results placements are determined by club officers at the end of seach series.</p>
-    <p>View source code at <a href="https://github.com/imorourke/portsmouthracecalc/">https://github.com/imorourke/portsmouthracecalc/</a></p>
+    {% if database.disclaimer %}
+    <p>{{ database.disclaimer }}</p>
+    {% endif %}
+    {% if database.disclaimer %}
+    <p>View source code at <a href="{{ database.code_location }}">{{ database.code_location }}</a></p>
+    {% endif %}
 </p>
+{% endif %}

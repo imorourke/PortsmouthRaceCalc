@@ -20,8 +20,6 @@ import matplotlib.pyplot as plt
 
 from . import Race, finishes
 
-import yaml
-
 
 @dataclass
 class ScoreList:
@@ -71,20 +69,24 @@ class SkipperRank:
         elif self.rank_tie_broken is not None and other.rank_tie_broken is not None:
             return self.rank_tie_broken < other.rank_tie_broken
         else:
-            raise RuntimeError("cannot compare one tie-broken rank to a non-tie-broken rank like this")
+            raise RuntimeError(
+                "cannot compare one tie-broken rank to a non-tie-broken rank like this"
+            )
 
 
 class Series:
     """
     Defines a series of series, defined by a fleet type and a list of series
     """
+
     def __init__(
-            self,
-            name: str,
-            valid_required_skippers: int,
-            fleet: Fleet,
-            qualify_count_override: Union[int, None] = None,
-            exclude_from_statistics: bool = False):
+        self,
+        name: str,
+        valid_required_skippers: int,
+        fleet: Fleet,
+        qualify_count_override: Union[int, None] = None,
+        exclude_from_statistics: bool = False,
+    ):
         """
         Initializes the series with the input parameters
         :param name: The unique name of the series
@@ -148,9 +150,11 @@ class Series:
         if skipper not in self.boat_dict:
             self.boat_dict[skipper] = boat
         else:
-            raise ValueError('Cannot add duplicate boat entry to series {:s} for {:s}'.format(
-                self.name,
-                skipper.identifier))
+            raise ValueError(
+                "Cannot add duplicate boat entry to series {:s} for {:s}".format(
+                    self.name, skipper.identifier
+                )
+            )
 
     def skipper_num_finished(self, skipper: Skipper) -> int:
         """
@@ -218,10 +222,16 @@ class Series:
             # Calculate RC point parameters
             for skip in self.get_all_skippers():
                 # Obtain the series for the skipper
-                skipper_races = [r for r in self.valid_races() if skip in r._race_finishes]
+                skipper_races = [
+                    r for r in self.valid_races() if skip in r._race_finishes
+                ]
 
                 # Obtain the results from each of the finished series and sort
-                point_values = [r.get_skipper_race_points()[skip] for r in skipper_races if skip in r.get_skipper_race_points()]
+                point_values = [
+                    r.get_skipper_race_points()[skip]
+                    for r in skipper_races
+                    if skip in r.get_skipper_race_points()
+                ]
                 point_values = [p for p in point_values if p is not None]
                 point_values.sort()
 
@@ -234,7 +244,9 @@ class Series:
                         point_values.pop()
 
                     # Calculate the score
-                    score = round_score(decimal.Decimal(sum(point_values) / len(point_values)))
+                    score = round_score(
+                        decimal.Decimal(sum(point_values) / len(point_values))
+                    )
 
                 # Set the results
                 self.__skipper_rc_pts[skip] = score
@@ -278,7 +290,9 @@ class Series:
                     value_to_add = None
 
                     # Define flags
-                    can_add_rc = skip in r._race_finishes and isinstance(r._race_finishes[skip], finishes.RaceFinishRC)
+                    can_add_rc = skip in r._race_finishes and isinstance(
+                        r._race_finishes[skip], finishes.RaceFinishRC
+                    )
                     can_add_rc = can_add_rc and rc_points_added_count < rc_max_count
 
                     # Add the results to the list if the skipper has a result
@@ -296,8 +310,9 @@ class Series:
 
                 if len(points_list) > 0:
                     points[skip] = ScoreList(
-                        points_scored=points_list[:self.qualify_count],
-                        points_excluded=points_list[self.qualify_count:])
+                        points_scored=points_list[: self.qualify_count],
+                        points_excluded=points_list[self.qualify_count :],
+                    )
 
             # Append the result to the static variable
             self.__points = points
@@ -372,7 +387,9 @@ class Series:
             skippers = list()
 
             # Check each race for skippers
-            all_skipper_instances = [rt.skipper for r in self.races for rt in r._race_finishes.values()]
+            all_skipper_instances = [
+                rt.skipper for r in self.races for rt in r._race_finishes.values()
+            ]
 
             # Iterate over all skipper values
             for s in all_skipper_instances:
@@ -440,6 +457,7 @@ class Series:
         Provides all skippers in the series, sorted first by points, and then by alphabet
         :return: list of unique skipper objects between all series, sorted
         """
+
         # Define a helper dataclass
         @dataclass
         class SkipperMap:
@@ -449,9 +467,7 @@ class Series:
         # Iterate over scores that are the same
         score_mapping: List[SkipperMap] = list()
         for s in self.get_all_skippers():
-            sm = SkipperMap(
-                skipper=s,
-                result=self.skipper_points_list(s))
+            sm = SkipperMap(skipper=s, result=self.skipper_points_list(s))
 
             score_mapping.append(sm)
 
@@ -548,27 +564,28 @@ class Series:
             for skipper, score in race.get_skipper_race_points().items():
                 rt = race._race_finishes[skipper]
                 if isinstance(rt, finishes.RaceFinishTime):
-                    results_list.append((score, rt.corrected_time_s / race.min_time_s()))
+                    results_list.append(
+                        (score, rt.corrected_time_s / race.min_time_s())
+                    )
 
             # Sort the values
             results_list.sort(key=lambda x: x[0])
 
             # Plot results
-            plt.plot([x[0] for x in results_list], [y[1] for y in results_list], 'o--')
+            plt.plot([x[0] for x in results_list], [y[1] for y in results_list], "o--")
 
         s = f.get_size_inches()
-        f.set_size_inches(
-            w=1.15 * s[0],
-            h=s[1])
+        f.set_size_inches(w=1.15 * s[0], h=s[1])
 
         # Assign the legend and axes labels
         plt.legend(
-            ['Race {:d}'.format(self.get_race_num(r)) for r in self.valid_races()],
-            loc='upper left',
+            ["Race {:d}".format(self.get_race_num(r)) for r in self.valid_races()],
+            loc="upper left",
             bbox_to_anchor=(1.04, 1),
-            borderaxespad=0)
-        plt.xlabel('Score [points]')
-        plt.ylabel('Normalized Finish Time [corrected / shortest]')
+            borderaxespad=0,
+        )
+        plt.xlabel("Score [points]")
+        plt.ylabel("Normalized Finish Time [corrected / shortest]")
         plt.tight_layout(rect=(0, 0, 1, 1))
 
         # Encode the image
@@ -588,7 +605,10 @@ class Series:
         # Iterate over each race to calculate the boat result
         for r in self.races:
             for rt in r._race_finishes.values():
-                if rt.skipper not in skip_boat_dict and rt.skipper in r.get_skipper_race_points():
+                if (
+                    rt.skipper not in skip_boat_dict
+                    and rt.skipper in r.get_skipper_race_points()
+                ):
                     skip_boat_dict[rt.skipper] = rt.boat.code
 
                     if rt.boat.code not in boat_type_dict:
@@ -601,7 +621,7 @@ class Series:
         sizes = [v[1] for v in combined]
 
         def percent2count(percent):
-            return '{:1.0f}'.format(round(percent/100.0 * sum(sizes)))
+            return "{:1.0f}".format(round(percent / 100.0 * sum(sizes)))
 
         # Plot
         plt.ioff()
@@ -611,8 +631,9 @@ class Series:
             sizes,
             labels=labels,
             autopct=percent2count,
-            explode=[0.03 for _ in combined])
-        ax.axis('equal')
+            explode=[0.03 for _ in combined],
+        )
+        ax.axis("equal")
 
         # Save resulting image and close
         byte_val = figure_to_data(f)
@@ -625,7 +646,7 @@ class Series:
         :return:
         """
         # Initialize plotting requirements
-        img_types = ['Rank', 'Points']
+        img_types = ["Rank", "Points"]
         img_vals = [bytes() for _ in range(len(img_types))]
 
         # Plot if able
@@ -633,16 +654,17 @@ class Series:
             # Define the skipper list
             skipper_db = {
                 skipper: (list(), list())
-                for skipper
-                in self.get_all_skippers()
-                if self.skipper_points_list(skipper) is not None}
+                for skipper in self.get_all_skippers()
+                if self.skipper_points_list(skipper) is not None
+            }
 
             # Create an inner series object to track point values
             series = Series(
                 name=self.name,
                 valid_required_skippers=self.valid_required_skippers,
                 fleet=self.fleet,
-                qualify_count_override=self._qualify_count_override)
+                qualify_count_override=self._qualify_count_override,
+            )
 
             # Iterate over each race to return a list of point values
             race_vals = list()
@@ -667,20 +689,25 @@ class Series:
                 f = plt.figure()
 
                 # Ignore none skippers
-                finished_skippers = {s: self.get_skipper_rank(skipper=s) for s in skipper_db.keys()}
-                finished_skippers = {s: r for s, r in finished_skippers.items() if r is not None}
+                finished_skippers = {
+                    s: self.get_skipper_rank(skipper=s) for s in skipper_db.keys()
+                }
+                finished_skippers = {
+                    s: r for s, r in finished_skippers.items() if r is not None
+                }
 
                 # Plot each skipper that has finished
                 for skipper, _ in sorted(finished_skippers.items(), key=lambda x: x[1]):
                     plt.plot(
                         race_vals,
                         skipper_db[skipper][i],
-                        '*--',
-                        label=skipper.identifier)
+                        "*--",
+                        label=skipper.identifier,
+                    )
 
                 # Label the plot
-                plt.xlabel('Race Number')
-                plt.ylabel(f'Skipper {img_types[i]}')
+                plt.xlabel("Race Number")
+                plt.ylabel(f"Skipper {img_types[i]}")
                 plt.legend(bbox_to_anchor=(1.04, 1), borderaxespad=0)
                 plt.tight_layout(rect=(0, 0, 1, 1))
 
@@ -725,7 +752,7 @@ class Series:
         Provides the fancy name, removing underscores for spaces and capitalizing
         :return: fancy name string
         """
-        return capitalize_words(self.name.replace('_', ' '))
+        return capitalize_words(self.name.replace("_", " "))
 
     def perl_series_dict(self) -> dict:
         """
@@ -751,10 +778,10 @@ class Series:
                 "skip": {
                     rr.skipper.identifier: {
                         "time": rr.perl_entry(),
-                        "boat": rr.boat.code.upper()
+                        "boat": rr.boat.code.upper(),
                     }
                     for rr in r.starting_boat_results()
-                }
+                },
             }
 
         return {"race": race_dict}
@@ -770,7 +797,9 @@ class Series:
                 if b.display_code not in boat_dict:
                     # Ensure that a default value is provided
                     if b.dpn_values[0] is None:
-                        raise RuntimeError(f"unable to find default DPN for {b.display_code} boat")
+                        raise RuntimeError(
+                            f"unable to find default DPN for {b.display_code} boat"
+                        )
 
                     # Setup the boat dictionary
                     boat_dict[b.display_code] = {
@@ -781,8 +810,8 @@ class Series:
                             "2-3": b.dpn_for_beaufort(2).value(),
                             "4": b.dpn_for_beaufort(4).value(),
                             "5-9": b.dpn_for_beaufort(5).value(),
-                        }
+                        },
                     }
 
         # Return the result
-        return { "boat": boat_dict }
+        return {"boat": boat_dict}

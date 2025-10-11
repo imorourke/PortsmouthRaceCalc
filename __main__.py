@@ -11,8 +11,7 @@ import sys
 from typing import Any, Callable
 
 from .staticgen import StaticApplication
-from .database import utils
-from .database.db import MasterDatabase
+from .database import utils, MasterDatabase
 from .database.series.series import Series
 
 import yaml

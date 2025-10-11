@@ -2,54 +2,55 @@
 
 <html>
     <head>
-        <title>PRC - {{ boat.display_code.upper() }}</title>
+        <title>
+            {{ database.name_short }} - {{ boat.display_code.upper() }}
+        </title>
         {% include 'head_items.html' %}
     </head>
     <body>
         <h1>Boat - {{ boat.display_code.upper() }}</h1>
         <a href="{{url_for('index_page')}}">Home</a>
-        <br>
-        <a href="{{url_for('fleet_page', fleet_name=fleet.name)}}">Fleet: {{ fleet.fancy_name() }}</a>
+        <br />
+        <a href="{{url_for('fleet_page', fleet_name=fleet.name)}}"
+            >Fleet: {{ fleet.fancy_name() }}</a
+        >
 
         <h2>Statistics</h2>
 
-        <table border = 1>
+        <table border="1">
             <tr>
                 <th>Code</th>
                 <th>Name</th>
                 <th>Class</th>
-                {% for d in boat.dpn_values %}
-                {% if loop.index - 1 == 0 %}
+                {% for d in boat.dpn_values %} {% if loop.index - 1 == 0 %}
                 <th>DPN</th>
                 {% else %}
                 <th>DPN {{loop.index - 1}}</th>
-                {% endif %}
-                {% endfor %}
+                {% endif %} {% endfor %}
             </tr>
             <tr>
                 <td>{{boat.code.upper()}}</td>
                 <td>{{boat.name}}</td>
                 <td>{{boat.boat_class.capitalize()}}</td>
 
-                {% for d in boat.dpn_values %}
-                {% if d %}
+                {% for d in boat.dpn_values %} {% if d %}
                 <td>{{ d }}</td>
                 {% else %}
                 <td></td>
-                {% endif %}
-                {% endfor %}
+                {% endif %} {% endfor %}
             </tr>
         </table>
 
         {% if boat.needs_handicap_note() %}
         <h3>DPN Notes:</h3>
-        {% include 'dpn_notes.html' %}
-        {% endif %}
-
-        {% if boat_stats.has_nonzero_races() %}
+        {% include 'dpn_notes.html' %} {% endif %} {% if
+        boat_stats.has_nonzero_races() %}
 
         <h2>Point Finishes</h2>
-        <img src="{{ url_for('boat_page_points_plot', fleet_name=fleet.name, boat_code=boat.code) }}" alt="Point Finishes">
+        <img
+            src="{{ url_for('boat_page_points_plot', fleet_name=fleet.name, boat_code=boat.code) }}"
+            alt="Point Finishes"
+        />
 
         <table border="1">
             <tr>
@@ -58,12 +59,8 @@
             </tr>
             {% for point, num_counts in boat_stats.get_point_counts_sorted() %}
             <tr>
-                <td>
-                    {{ point }}
-                </td>
-                <td>
-                    {{ num_counts }}
-                </td>
+                <td>{{ point }}</td>
+                <td>{{ num_counts }}</td>
             </tr>
             {% endfor %}
             <tr>
@@ -80,7 +77,12 @@
         <table border="0">
             {% for series in boat_stats.series %}
             <tr>
-                <td><a href="{{url_for('series_page', series_name=series.name)}}">{{ series.fancy_name() }}</a></td>
+                <td>
+                    <a
+                        href="{{url_for('series_page', series_name=series.name)}}"
+                        >{{ series.fancy_name() }}</a
+                    >
+                </td>
             </tr>
             {% endfor %}
         </table>
@@ -89,13 +91,16 @@
         <table border="0">
             {% for skipper in boat_stats.skippers %}
             <tr>
-                <td><a href="{{url_for('skipper_page_ind', skipper_name=skipper.identifier)}}">{{ skipper.identifier }}</a></td>
+                <td>
+                    <a
+                        href="{{url_for('skipper_page_ind', skipper_name=skipper.identifier)}}"
+                        >{{ skipper.identifier }}</a
+                    >
+                </td>
             </tr>
             {% endfor %}
         </table>
 
-        {% endif %}
-
-        {% include 'footer.html' %}
+        {% endif %} {% include 'footer.html' %}
     </body>
 </html>
