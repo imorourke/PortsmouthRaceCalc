@@ -1,6 +1,7 @@
 # Editor Files
 .vscode/
 .idea/
+.ropeproject/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

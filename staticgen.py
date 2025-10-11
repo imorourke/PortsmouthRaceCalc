@@ -25,15 +25,14 @@ class StaticApplication:
     __VAR_CHECK = re.compile(r"<(?P<type>[a-zA-z]+):(?P<varname>[\w_]+(/[\w_]+)*)>")
 
     # Check for an overall path for validity
-    __PATH_CHECK = re.compile(r"^/(([\w_]+|<[a-zA-z]+:[\w_]+(/[\w_]+)*>)|/?)*([\w_]*\.\w+)$")
+    __PATH_CHECK = re.compile(
+        r"^/(([\w_]+|<[a-zA-z]+:[\w_]+(/[\w_]+)*>)|/?)*([\w_]*\.\w+)$"
+    )
 
     # Check for a file extension
     __EXT_CHECK = re.compile(r"\.\w+$")
 
-    def __init__(
-            self,
-            name: str = "",
-            base_path: Path = Path(".")):
+    def __init__(self, name: str = "", base_path: Path = Path(".")):
         """
         Initializes the static application with the provided values
         :param name: the name of the application
@@ -43,7 +42,9 @@ class StaticApplication:
         self.name = name
 
         # Define maps to link path values to variable names and rendering functions
-        self.path_name_map: Dict[str, Callable[[Any], Optional[Union[str, bytes]]]] = dict()
+        self.path_name_map: Dict[str, Callable[[Any], Optional[Union[str, bytes]]]] = (
+            dict()
+        )
         self.path_function_map: Dict[str, str] = dict()
 
         # Define path parameters
@@ -52,7 +53,9 @@ class StaticApplication:
         self.static_path = base_path / "static"
 
         # Define the Jinja2 environment
-        self.jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(base_path / "templates"))
+        self.jinja_env = jinja2.Environment(
+            loader=jinja2.FileSystemLoader(base_path / "templates")
+        )
         print(self.jinja_env.loader.list_templates())
         self.jinja_env.globals.update(url_for=self.url_for)
         self.jinja_env.globals.update(get_build_time=self.get_build_time)
@@ -62,15 +65,12 @@ class StaticApplication:
 
         # Define the build start time
         dt = datetime.datetime.utcnow()
-        self.build_time_string = dt.strftime('%B %d, %Y at %H:%M:%S UTC')
+        self.build_time_string = dt.strftime("%B %d, %Y at %H:%M:%S UTC")
 
         # Define a function to help with relative URL parameters
         self._url_for_relative: Optional[Path] = None
 
-    def add_list(
-            self,
-            name: str,
-            values: Union[List, Dict]) -> None:
+    def add_list(self, name: str, values: Union[List, Dict]) -> None:
         """
         Adds an iterable item to the list
         :param name: the variable name of the item
@@ -113,10 +113,8 @@ class StaticApplication:
         return decorator
 
     def _iter_generator(
-            self,
-            path: str,
-            vars_so_far: Optional[Dict[str, Union[str, int]]]) \
-            -> Generator[Tuple[str, Dict[str, Union[str, int]]], None, None]:
+        self, path: str, vars_so_far: Optional[Dict[str, Union[str, int]]]
+    ) -> Generator[Tuple[str, Dict[str, Union[str, int]]], None, None]:
         """
         Define an iterable generator to link through the iterable lists for a given path and provide the paths that
         need to be rendered
@@ -128,40 +126,47 @@ class StaticApplication:
         search_result = self.__VAR_CHECK.search(path)
         if search_result:
             # Ensure that the expected values are contained within
-            if 'type' not in search_result.groupdict() or 'varname' not in search_result.groupdict():
-                raise RuntimeError('missing types or varname within replacement path string')
+            if (
+                "type" not in search_result.groupdict()
+                or "varname" not in search_result.groupdict()
+            ):
+                raise RuntimeError(
+                    "missing types or varname within replacement path string"
+                )
 
             # Extract the types and define the expected type value
-            type_str = search_result.groupdict()['type'].lower()
-            var_str = search_result.groupdict()['varname']
+            type_str = search_result.groupdict()["type"].lower()
+            var_str = search_result.groupdict()["varname"]
 
             # Pull the value list for the current results
-            if '/' in var_str:
-                actual_varname = var_str[var_str.rfind('/') + 1:]
+            if "/" in var_str:
+                actual_varname = var_str[var_str.rfind("/") + 1 :]
                 value_list = self.iter_lists[actual_varname]
-                while '/' in var_str:
-                    init_varname = var_str[:var_str.find('/')]
+                while "/" in var_str:
+                    init_varname = var_str[: var_str.find("/")]
                     if vars_so_far is None:
                         raise RuntimeError("variable cannot be None")
                     value_list = value_list[vars_so_far[init_varname]]
-                    var_str = var_str[var_str.find('/') + 1:]
+                    var_str = var_str[var_str.find("/") + 1 :]
             else:
                 value_list = self.iter_lists[var_str]
 
             # Iterate over each of the values in the provided list
             for value in value_list:
                 # Check the type string values
-                if type_str == 'string':
+                if type_str == "string":
                     value_str = value
-                elif type_str == 'int':
-                    value_str = f'{value:d}'
+                elif type_str == "int":
+                    value_str = f"{value:d}"
                 else:
                     raise ValueError(f"unknown type string '{type_str}' provided")
 
                 # Perform the replacement value
                 path_chars = list(path)
-                path_chars[search_result.start():search_result.end()] = list(value_str)
-                new_path_str = ''.join(path_chars)
+                path_chars[search_result.start() : search_result.end()] = list(
+                    value_str
+                )
+                new_path_str = "".join(path_chars)
 
                 # Define the variable list
                 if vars_so_far is None:
@@ -176,7 +181,9 @@ class StaticApplication:
                     vars_so_far_iter[var_str] = value
 
                 # Iterate any further replacement values
-                for result in self._iter_generator(path=new_path_str, vars_so_far=vars_so_far_iter):
+                for result in self._iter_generator(
+                    path=new_path_str, vars_so_far=vars_so_far_iter
+                ):
                     yield result
         else:
             # Generate a new variable list
@@ -198,10 +205,7 @@ class StaticApplication:
         template = self.jinja_env.get_template(template_name)
         return template.render(**kwargs)
 
-    def url_for(
-            self,
-            function_name: str,
-            **kwargs) -> str:
+    def url_for(self, function_name: str, **kwargs) -> str:
         """
         Provides the URL for a given path. If the _url_for_relative is set, the returned URL will be relative
         :param function_name: is the function name ot find a path for, or 'static'
@@ -209,10 +213,10 @@ class StaticApplication:
         :return:
         """
         # Return a static parameter
-        if function_name == 'static':
-            filename = kwargs['filename']
-            if len(filename) > 0 and filename[0] != '/':
-                filename = f'/{filename}'
+        if function_name == "static":
+            filename = kwargs["filename"]
+            if len(filename) > 0 and filename[0] != "/":
+                filename = f"/{filename}"
             url_val = filename
 
         # Return a dynamic parameter
@@ -224,25 +228,25 @@ class StaticApplication:
             search_result = self.__VAR_CHECK.search(url_val)
             while search_result:
                 # Extract search results
-                var_type = search_result.groupdict()['type']
-                var_name = search_result.groupdict()['varname']
+                var_type = search_result.groupdict()["type"]
+                var_name = search_result.groupdict()["varname"]
 
                 # Find the true variable name
-                if '/' in var_name:
-                    var_name = var_name[var_name.rfind('/') + 1:]
+                if "/" in var_name:
+                    var_name = var_name[var_name.rfind("/") + 1 :]
 
                 # Define the resulting variable value from the kwargs
-                if var_type == 'string':
+                if var_type == "string":
                     var_value = kwargs[var_name]
-                elif var_type == 'int':
-                    var_value = f'{kwargs[var_name]:d}'
+                elif var_type == "int":
+                    var_value = f"{kwargs[var_name]:d}"
                 else:
                     raise NotImplementedError()
 
                 # Replace the search values with the resulting strings
                 url_val = list(url_val)
-                url_val[search_result.start():search_result.end()] = var_value
-                url_val = ''.join(url_val)
+                url_val[search_result.start() : search_result.end()] = var_value
+                url_val = "".join(url_val)
 
                 # Re-update the search results
                 search_result = self.__VAR_CHECK.search(url_val)
@@ -267,7 +271,7 @@ class StaticApplication:
 
             # Add the resulting directory tree movements
             for i in range(num_path_ups):
-                path_result = Path('..') / path_result
+                path_result = Path("..") / path_result
 
             # Add the resulting filename and convert to a POSIX path to return
             path_result /= Path(url_val).name
@@ -286,17 +290,18 @@ class StaticApplication:
         # Check file name validity
         if len(url) == 0:
             raise ValueError("path cannot be empty")
-        elif url[0] != '/':
+        elif url[0] != "/":
             raise ValueError("path must start with /")
 
         # Return the result
         return url
 
     def send_from_directory(
-            self,
-            directory: Union[str, PathLike],
-            path: Union[str, PathLike],
-            binary: bool = False) -> Union[bytes, str]:
+        self,
+        directory: Union[str, PathLike],
+        path: Union[str, PathLike],
+        binary: bool = False,
+    ) -> Union[bytes, str]:
         """
         Provides a resulting name from the given directory
         :param directory: the directory name (often static)
@@ -308,7 +313,7 @@ class StaticApplication:
         if not target_file.exists():
             raise RuntimeError(f"target file {str(target_file)} does not exist")
 
-        with target_file.open('rb' if binary else 'r') as f:
+        with target_file.open("rb" if binary else "r") as f:
             return f.read()
 
     def __clear_build_dir(self) -> None:
@@ -317,15 +322,13 @@ class StaticApplication:
         and existing files or directories in the build path
         """
         if self.build_path.exists():
-            for path in self.build_path.glob('*'):
+            for path in self.build_path.glob("*"):
                 if path.is_dir():
                     shutil.rmtree(path)
                 else:
                     path.unlink()
         else:
-            self.build_path.mkdir(
-                exist_ok=False,
-                parents=False)
+            self.build_path.mkdir(exist_ok=False, parents=False)
 
     def build(self) -> None:
         """
@@ -360,10 +363,10 @@ class StaticApplication:
 
                 # Write either the string or bytes to the output
                 if isinstance(parse_result, str):
-                    with resulting_path.open('w') as f:
+                    with resulting_path.open("w") as f:
                         f.write(parse_result)
                 elif isinstance(parse_result, bytes):
-                    with resulting_path.open('wb') as f:
+                    with resulting_path.open("wb") as f:
                         f.write(parse_result)
                 elif parse_result is None:
                     pass
